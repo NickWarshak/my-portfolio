@@ -10,15 +10,21 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
-    runs-local: false
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
+          fetch-depth: 0
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
       - name: Setup Hugo
         uses: actions/setup-hugo@v2
         with:
