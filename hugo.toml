@@ -2,3 +2,13 @@ baseURL = 'https://NickWarshak.github.io/my-portfolio/'
 languageCode = 'en-us'
 title = 'Nick Warshak'
 theme = "PaperMod"
+[params.homeInfoParams]
+    Title = "Hi, I'm Nick Warshak"
+    Content = "Information Systems student at the University of Cincinnati. Aspiring Data Scientist & AI enthusiast."
+
+[[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/YOUR_PROFILE"
+[[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/NickWarshak"
