@@ -19,14 +19,20 @@ theme = "PaperMod"
         name = "github"
         url = "https://github.com/NickWarshak"
 [[menu.main]]
-    name = "Experience"
-    url = "/experience"
-    weight = 10
-[[menu.main]]
     name = "Projects"
-    url = "/projects"
+    url = "/projects/"
+    weight = 10  # Lowest weight = First on the left
+
+[[menu.main]]
+    name = "Experience"
+    url = "/experience/"
     weight = 20
+
 [[menu.main]]
     name = "Coursework"
-    url = "/coursework"
+    url = "/coursework/"
     weight = 30
+[[menu.main]]
+    name = "Personal"
+    url = "/personal/"
+    weight = 40
