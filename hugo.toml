@@ -2,8 +2,11 @@ baseURL = 'https://NickWarshak.github.io/my-portfolio/'
 languageCode = 'en-us'
 title = 'Nick Warshak'
 theme = "PaperMod"
+[params]
+    # This tells the theme to bundle your custom CSS
+    assets = { disableFingerprinting = false }
 [params.homeInfoParams]
-    Title = "Personal Website & Porftolio"
+    Title = "Personal Website & Portfolio"
     Content = "Information Systems student at the University of Cincinnati. Aspiring Data Scientist & AI enthusiast."
 
 [[params.socialIcons]]

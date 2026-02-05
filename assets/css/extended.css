@@ -1,15 +1,17 @@
-/* Move "Nick Warshak" logo fully to the left */
+/* 1. Push Logo/Name to the extreme left */
 .nav {
-    max-width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: unset !important;
+    margin-left: 20px !important;
 }
 
-/* Reduce the massive gap above the Hero text */
-.first-entry, .main {
-    margin-top: 20px !important;
-}
-
+/* 2. Remove the massive top padding from the profile/hero section */
 .profile {
-    padding-top: 10px !important; /* Move Profile content higher */
+    margin-top: 0 !important;
+    padding-top: 20px !important; /* Adjust this number to your liking */
+    min-height: unset !important;
+}
+
+/* 3. Reduce space between Header and Hero Title */
+.main {
+    margin-top: 0 !important;
 }
