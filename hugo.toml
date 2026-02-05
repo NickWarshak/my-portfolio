@@ -9,7 +9,7 @@ theme = "PaperMod"
 
     [params.homeInfoParams]
         Title = "Personal Website & Portfolio"
-        Content = "Information Systems student at the University of Cincinnati with a certification in Computer Science. Versed in Business Analytics and Core Business Disciplines."
+        Content = "Information Systems student at the University of Cincinnati with a certification in Computer Science. Focused on leveraging critical thinking, hard skills, and AI to solve complex problems."
 
     [[params.socialIcons]]
         name = "linkedin"

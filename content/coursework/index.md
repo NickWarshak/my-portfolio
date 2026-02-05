@@ -2,11 +2,13 @@
 title: "Relevant Coursework"
 date: 2026-02-05
 draft: false
-summary: "Academic foundation in Information Systems with a certification in Computer Science. Versed in Business Analytics and Core Business Disciplines at the University of Cincinnati."
 ---
 
+Academic foundation in Information Systems with a certification in Computer Science. Versed in Business Analytics and Core Business Disciplines at the University of Cincinnati.
+
+---
 ### Information Systems & Artificial Intelligence
-* **Appplication Development with AI**
+* **Application Development with AI**
 * **Business Intelligence**
 * **Intro to Applied AI & Machine Learning Tools**
 * **Database Design**
