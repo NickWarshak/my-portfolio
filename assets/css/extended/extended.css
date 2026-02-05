@@ -1,0 +1,17 @@
+/* 1. Push Logo/Name to the extreme left */
+.nav {
+    max-width: unset !important;
+    margin-left: 20px !important;
+}
+
+/* 2. Remove the massive top padding from the profile/hero section */
+.profile {
+    margin-top: 0 !important;
+    padding-top: 20px !important; /* Adjust this number to your liking */
+    min-height: unset !important;
+}
+
+/* 3. Reduce space between Header and Hero Title */
+.main {
+    margin-top: 0 !important;
+}
