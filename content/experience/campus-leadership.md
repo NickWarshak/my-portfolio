@@ -1,6 +1,7 @@
 ---
 title: "Campus Leadership"
 date: 2026-02-05
+weight: 20
 draft: false
 ---
 

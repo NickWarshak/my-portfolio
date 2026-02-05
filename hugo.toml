@@ -18,6 +18,8 @@ theme = "PaperMod"
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/NickWarshak"
+    [params]
+    mainSections = ["projects"]
 [[menu.main]]
     name = "Projects"
     url = "/projects/"
