@@ -1,0 +1,4 @@
+baseURL = 'https://nickwarshak.org/'
+languageCode = 'en-us'
+title = 'Nick Warshak'
+theme = "PaperMod"
