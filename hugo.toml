@@ -1,8 +1,11 @@
+baseURL = 'https://NickWarshak.github.io/my-portfolio/'
+languageCode = 'en-us'
+title = 'Nick Warshak'
+theme = "PaperMod"
 [params]
-    # General Site Settings
+    # This tells the theme to bundle your custom CSS
     assets = { disableFingerprinting = false }
-    env = "production"
-    mainSections = ["projects"] # Tells Hugo to only show Projects on the home feed
+    env = "production" # Moved this up here
 
     [params.homeInfoParams]
         Title = "Personal Website & Portfolio"
@@ -15,17 +18,12 @@
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/NickWarshak"
-
-    [[params.socialIcons]]
-        name = "cv" 
-        url = "Nick_Warshak_Resume.pdf"
-        title = "Resume PDF"
-
-# Navigation Menu
+    [params]
+    mainSections = ["projects"]tells Hugo ONLY to show Projects on the home feed
 [[menu.main]]
     name = "Projects"
     url = "/projects/"
-    weight = 10
+    weight = 10  # Lowest weight = First on the left
 
 [[menu.main]]
     name = "Experience"
@@ -36,7 +34,6 @@
     name = "Coursework"
     url = "/coursework/"
     weight = 30
-
 [[menu.main]]
     name = "Personal"
     url = "/personal/"
