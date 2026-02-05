@@ -1,6 +1,7 @@
 ---
 title: "Work Experience"
 date: 2026-02-05
+weight: 10
 draft: false
 ---
 

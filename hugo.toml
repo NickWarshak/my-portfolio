@@ -19,11 +19,11 @@ theme = "PaperMod"
         name = "github"
         url = "https://github.com/NickWarshak"
     [[params.socialIcons]]
-    name = "cv" # This will usually show a paper/document icon
-    url = "Nick_Warshak_Resume.pdf"
-    title = "Resume PDF"
+        name = "cv" # This will usually show a paper/document icon
+        url = "Nick_Warshak_Resume.pdf"
+        title = "Resume PDF"
     [params]
-    mainSections = ["projects"]
+        mainSections = ["projects"]
 [[menu.main]]
     name = "Projects"
     url = "/projects/"
