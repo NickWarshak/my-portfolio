@@ -5,17 +5,19 @@ theme = "PaperMod"
 [params]
     # This tells the theme to bundle your custom CSS
     assets = { disableFingerprinting = false }
-[params.homeInfoParams]
-    Title = "Personal Website & Portfolio"
-    Content = "Information Systems student at the University of Cincinnati. Aspiring Data Scientist & AI enthusiast."
-[params]
-    env = "production" # This encourages Hugo to bundle all assets
-[[params.socialIcons]]
-    name = "linkedin"
-    url = "https://linkedin.com/in/nicholas-warshak"
-[[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/NickWarshak"
+    env = "production" # Moved this up here
+
+    [params.homeInfoParams]
+        Title = "Personal Website & Portfolio"
+        Content = "Information Systems student at the University of Cincinnati with a certification in Computer Science. Versed in Business Analytics and Core Business Disciplines."
+
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://linkedin.com/in/nicholas-warshak"
+
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/NickWarshak"
 [[menu.main]]
     name = "Experience"
     url = "/experience"
