@@ -6,7 +6,7 @@ summary: "Academic foundation in Information Systems with a certification in Com
 ---
 
 ### Information Systems & Artificial Intelligence
-* **Application Development with AI**
+* **Appplication Development with AI**
 * **Business Intelligence**
 * **Intro to Applied AI & Machine Learning Tools**
 * **Database Design**

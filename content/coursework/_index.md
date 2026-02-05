@@ -9,7 +9,7 @@ Academic foundation in Information Systems with a certification in Computer Scie
 ---
 
 ### Information Systems & Artificial Intelligence
-* **Application Development with AI**
+* **Aplication Development with AI**
 * **Business Intelligence**
 * **Intro to Applied AI & Machine Learning Tools**
 * **Database Design**
