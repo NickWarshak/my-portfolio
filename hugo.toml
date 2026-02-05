@@ -12,3 +12,15 @@ theme = "PaperMod"
 [[params.socialIcons]]
     name = "github"
     url = "https://github.com/NickWarshak"
+[[menu.main]]
+    name = "Experience"
+    url = "/experience"
+    weight = 10
+[[menu.main]]
+    name = "Projects"
+    url = "/projects"
+    weight = 20
+[[menu.main]]
+    name = "Coursework"
+    url = "/coursework"
+    weight = 30
