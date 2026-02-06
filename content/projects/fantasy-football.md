@@ -15,7 +15,7 @@ This project is a high-performance C# application designed to bridge the gap bet
 
 ---
 
-### Technical Implementation
+### Technical Stack
 * **Language & Framework:** Built using **C#** and **.NET** in Visual Studio.
 * **API Integration:** Utilizes **Asynchronous Programming (`async/await`)** to fetch real-time event and market data from *The Odds API*.
 * **Data Parsing:** Leverages **System.Text.Json** for efficient serialization of complex, nested JSON responses from multiple bookmakers.

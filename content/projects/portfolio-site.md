@@ -23,7 +23,7 @@ Developed a professional digital portfolio to showcase technical projects and ac
 ---
 
 ### Key Features & Implementation
-* **Automated Deployment:** Configured a **GitHub Actions** workflow to automatically build and deploy the site to GitHub Pages upon every **git push**, ensuring a seamless CI/CD pipeline.
+* **Automated Deployment:** Configured a **GitHub Actions** workflow to automatically build and deploy the site to GitHub Pages upon every **GIT** push, ensuring a seamless CI/CD pipeline.
 * **Custom Configuration:** Architected a modular site structure using **TOML** to manage multi-category content, including Project, Experience, and Coursework sections.
 * **Responsive Design:** Optimized the user interface (UI) through custom **CSS** and PaperMod configuration for a professional, mobile-friendly experience.
 * **Data Integrity:** Successfully managed troubleshooting for complex **YAML/TOML** formatting and directory architecture.
