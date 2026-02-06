@@ -21,10 +21,12 @@ theme = "PaperMod"
         url = "https://github.com/NickWarshak"
 
     [[params.socialIcons]]
-        name = "cv" 
-        url = "/Nick_Warshak_Resume.pdf"
-        title = "Resume PDF"
+        name = "email"
+        url = "mailto:warshanj@mail.uc.edu"
 
+    [[params.socialIcons]]
+        name = "phone"
+        url = "tel:8595127297"
 # Navigation Menu
 [[menu.main]]
     name = "Projects"
