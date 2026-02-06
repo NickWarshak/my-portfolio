@@ -8,7 +8,9 @@ Academic foundation in Information Systems with a certification in Computer Scie
 
 ---
 
-### Information Systems & Artificial Intelligence
+<details>
+<summary><b>Information Systems & Artificial Intelligence</b> (Click to expand)</summary>
+
 * Application Development with AI
 * Business Intelligence
 * Intro to Applied AI & Machine Learning Tools
@@ -19,16 +21,24 @@ Academic foundation in Information Systems with a certification in Computer Scie
 * Intro to Programming with Python and R
 * Digital Technology in Business
 
----
+</details>
 
-### Business Analytics & Mathematics
+<br>
+
+<details>
+<summary><b>Business Analytics & Mathematics</b> (Click to expand)</summary>
+
 * Business Analytics I & II
 * Applied Calculus I & II
 * Operations Management
 
----
+</details>
 
-### Business Core
+<br>
+
+<details>
+<summary><b>Business Core</b> (Click to expand)</summary>
+
 * Business Finance
 * Financial & Managerial Accounting
 * Legal Environment of Business
@@ -37,3 +47,5 @@ Academic foundation in Information Systems with a certification in Computer Scie
 * Microeconomics & Macroeconomics
 * Business Communication
 * Design Thinking and Ethics
+
+</details>
