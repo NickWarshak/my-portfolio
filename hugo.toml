@@ -2,36 +2,28 @@ baseURL = 'https://NickWarshak.github.io/my-portfolio/'
 languageCode = 'en-us'
 title = 'Nick Warshak'
 theme = "PaperMod"
-
 [params]
-    env = "production"
     # General Site Settings
-    assets.disableFingerprinting = false
+    assets = { disableFingerprinting = false }
+    env = "production"
+    mainSections = ["projects"] # Tells Hugo to only show Projects on the home feed
 
-[params.profileMode]
-    enabled = true
-    title = "Nick Warshak"
-    subtitle = "Information Systems & Data Analytics | University of Cincinnati"
-    displaySubtitle = true
-    content = """
-**Welcome!** I am a developer and analyst passionate about bridging the gap between raw data and actionable insights.
+    [params.homeInfoParams]
+        Title = "Personal Website & Portfolio"
+        Content = "Information Systems student at the University of Cincinnati with a certification in Computer Science. Focused on leveraging critical thinking, hard skills, and AI to solve complex problems. Please visit the tabs in the top right to see some of my projects, experience, coursework, and even a personal page."
 
-🔍 **Explore my work:**
-* **[Projects](/projects):** Real-time C# engines and Python machine learning models.
-* **[Experience](/experience):** Professional background and community involvement.
-* **[Coursework](/coursework):** Classes I have taken at the University of Cincinnati.
-* **[Personal](/personal):** Life beyond the laptop - music, film, and more.
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://linkedin.com/in/nicholas-warshak"
 
-*Feel free to connect with me via the links below!*
-"""
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/NickWarshak"
 
-[[params.socialIcons]]
-    name = "linkedin"
-    url = "https://linkedin.com/in/nicholas-warshak"
-
-[[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/NickWarshak"
+    [[params.socialIcons]]
+        name = "cv" 
+        url = "/Nick_Warshak_Resume.pdf"
+        title = "Resume PDF"
 
 # Navigation Menu
 [[menu.main]]
