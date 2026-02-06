@@ -10,8 +10,15 @@ theme = "PaperMod"
 
     [params.homeInfoParams]
         Title = "Personal Website & Portfolio"
-        Content = "Information Systems student at the University of Cincinnati with a certification in Computer Science. Focused on leveraging critical thinking, hard skills, and AI to solve complex problems."
-
+        Content = """
+    Welcome to my digital portfolio! 
+    
+    I'm a developer and analyst focused on building data-driven insights
+    and solutions. Explore the **Projects** tab to see what i've been 
+    working on check out my **Coursework** for academic highlights, 
+    or head over to the **Personal** page to see what I'm up to 
+    when my laptop is closed.
+    """
     [[params.socialIcons]]
         name = "linkedin"
         url = "https://linkedin.com/in/nicholas-warshak"
