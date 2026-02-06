@@ -24,7 +24,7 @@ Developed a predictive modeling engine to analyze the California Housing dataset
 ---
 
 ### Key Features & Implementation
-* **Advanced Feature Engineering:** Utilized **PolynomialFeatures** to transform raw data into a 2nd-degree polynomial matrix ($x_1^2, x_1x_2$, etc.), enabling the model to capture multidimensional interactions.
+* **Advanced Feature Engineering:** Utilized **Polynomial Features** to transform raw data into a 2nd-degree polynomial matrix ($x_1^2, x_1x_2$, etc.), enabling the model to capture multidimensional interactions.
 * **Exploratory Data Analysis (EDA):** Architected a **Correlation Heatmap** to identify high-impact variables and reduce model noise by dropping redundant features like total room counts and geographic outliers.
 * **Comparative Performance Analysis:** Implemented a dual-model workflow, testing a standard **Linear Baseline** against an optimized **Polynomial Engine** to quantify accuracy improvements.
 * **Error Visualization:** Developed **Residual Histograms** and **Mean Squared Error (MSE)** comparison plots to statistically validate the model's predictive reliability.
@@ -36,7 +36,7 @@ Developed a predictive modeling engine to analyze the California Housing dataset
 ### The Logic (The Math)
 The project focuses on minimizing the variance between predicted and actual values through two distinct stages:
 * **Residual Analysis:** Evaluated the frequency and distribution of absolute errors to ensure the model was not biased toward specific price brackets.
-* **Complexity Management:** Balanced the trade-off between model depth and computational efficiency, successfully reducing the **Mean Absolute Error (MAE)** through polynomial expansion without causing over-fitting.
+* **Complexity Management:** Balanced the trade-off between model depth and computational efficiency, successfully reducing the **Mean Absolute Error** through polynomial expansion without causing over-fitting.
 
 
 
