@@ -1,5 +1,5 @@
 ---
-title: "Fantasy Football Projection Calculator"
+title: "Fantasy Football Projection Engine"
 date: 2026-02-05
 draft: false
 description: "A C# analytical tool that leverages market data from The Odds API to project fantasy football performance."
