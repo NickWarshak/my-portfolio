@@ -1,7 +1,9 @@
 ---
-title: "Beyond the Code"
-description: "A collection of things I enjoy when I'm not staring at a terminal."
-layout: "page"
+title: "About Me"
+date: 2026-02-05
+draft: false
+description: "A collection of things I love that don't involve staring at a terminal."
+showToc: true
 ---
 
 ### 🎸 Music & Hobbies
