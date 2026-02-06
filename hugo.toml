@@ -2,35 +2,36 @@ baseURL = 'https://NickWarshak.github.io/my-portfolio/'
 languageCode = 'en-us'
 title = 'Nick Warshak'
 theme = "PaperMod"
+
 [params]
-    # General Site Settings
-    assets = { disableFingerprinting = false }
     env = "production"
-    mainSections = ["projects"] # Tells Hugo to only show Projects on the home feed
+    # General Site Settings
+    assets.disableFingerprinting = false
 
-    [params.homeInfoParams]
-        Title = "Personal Website & Portfolio"
-        Content = """
-    Welcome to my digital portfolio! 
-    
-    I'm a developer and analyst focused on building data-driven insights
-    and solutions. Explore the **Projects** tab to see what i've been 
-    working on check out my **Coursework** for academic highlights, 
-    or head over to the **Personal** page to see what I'm up to 
-    when my laptop is closed.
-    """
-    [[params.socialIcons]]
-        name = "linkedin"
-        url = "https://linkedin.com/in/nicholas-warshak"
+[params.profileMode]
+    enabled = true
+    title = "Nick Warshak"
+    subtitle = "Information Systems & Data Analytics | University of Cincinnati"
+    displaySubtitle = true
+    content = """
+**Welcome!** I am a developer and analyst passionate about bridging the gap between raw data and actionable insights.
 
-    [[params.socialIcons]]
-        name = "github"
-        url = "https://github.com/NickWarshak"
+🔍 **Explore my work:**
+* **[Projects](/projects):** Real-time C# engines and Python machine learning models.
+* **[Experience](/experience):** Professional background and community involvement.
+* **[Coursework](/coursework):** Classes I have taken at the University of Cincinnati.
+* **[Personal](/personal):** Life beyond the laptop - music, film, and more.
 
-    [[params.socialIcons]]
-        name = "cv" 
-        url = "/Nick_Warshak_Resume.pdf"
-        title = "Resume PDF"
+*Feel free to connect with me via the links below!*
+"""
+
+[[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/nicholas-warshak"
+
+[[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/NickWarshak"
 
 # Navigation Menu
 [[menu.main]]

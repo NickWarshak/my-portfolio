@@ -2,15 +2,12 @@
 title: "About Me"
 date: 2026-02-05
 draft: false
-description: "A collection of things I love that don't involve staring at a terminal."
+description: "A collection of things I love that don't involve staring at a screen."
 showToc: true
 ---
 
 ### 🎸 Music & Hobbies
 Music is my biggest hobby and pasion outside of the business world. I love listening and playing music whenever I get a Chance. Guitar is my favorite instrument, but I also love piano. My favorite band of all time is The Beatles, but i've been listening to a lot of Prince lately.  
-
-{{< youtube YOUR_VIDEO_ID_HERE >}}
-*(To add your guitar video: Upload it to YouTube as 'Unlisted' and paste the ID from the URL here.)*
 
 ---
 
