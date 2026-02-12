@@ -6,10 +6,10 @@ theme = "PaperMod"
     # General Site Settings
     assets = { disableFingerprinting = false }
     env = "production"
-    mainSections = ["projects"] # Tells Hugo to only show Projects on the home feed
+    mainSections = ["projects"]
 
     [params.homeInfoParams]
-        Title = "Personal Website & Portfolio"
+        Title = "Personal Website"
         Content = "Hi, I am an Information Systems, Economics, and Computer Science student at the University of Cincinnati. If you are interested, feel free to check out my projects, experience, coursework, or personal section to learn a little more about me."
 
     [[params.socialIcons]]
