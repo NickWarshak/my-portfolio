@@ -4,7 +4,7 @@ date: 2026-02-05
 draft: false
 ---
 
-Academic foundation in Information Systems with a certification in Computer Science. Versed in Business Analytics and Core Business Disciplines at the University of Cincinnati.
+Academic foundation in Information Systems and Economics with a certification in Computer Science. My favorite class has obviously been History of the Beatles, though.
 
 ---
 
@@ -37,3 +37,11 @@ Academic foundation in Information Systems with a certification in Computer Scie
 * Microeconomics & Macroeconomics
 * Business Communication
 * Design Thinking and Ethics
+
+---
+
+### Arts & Electives
+* History of the Beatles
+* Intro to Modern Africa
+* Jazz Appreciation
+* Cultural Anthropology

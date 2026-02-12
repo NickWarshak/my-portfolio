@@ -11,7 +11,7 @@ weight: 20
 [View Source Code on GitHub](https://github.com/NickWarshak/fantasy-football-analyzer)
 
 ### Project Overview
-This project is a high-performance C# application designed to bridge the gap between sports betting markets and fantasy football projections. By pulling real-time player prop data, the engine calculates "implied" fantasy scores based on market probability rather than just historical averages.
+This project is a C# application designed to bridge the gap between sports betting markets and fantasy football projections. By pulling real-time player prop data, the engine calculates "implied" fantasy scores based on market probability rather than just historical averages.
 
 ---
 

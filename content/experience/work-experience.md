@@ -11,7 +11,7 @@ draft: false
 * **Inventory Data Architecture:** Maintain and audit data integrity for 400+ vehicles valued at over **$10M** across five internal and external databases.
 * **Market & Pricing Analysis:** Perform recurring inventory analyses to support competitive pricing strategies and vehicle placement decisions.
 * **Supply Chain Logistics:** Coordinate vehicle movement across four dealership locations, managing a daily volume of 30–100+ units based on transport demand.
-* **Operational Visibility:** Developed and maintained **Excel-based tracking systems** to provide real-time inventory visibility and location tracking.
+* **App Development:** Developed and maintained multiple online application that were used by management and sales. 
 * **Strategic Support:** Identify high-visibility and unique inventory for main-lot placement to drive sales strategy and improve transfer efficiency.
 * **Cross-Functional Reporting:** Provide ad-hoc data pulls and analytical support to management, sales, and finance teams to facilitate data-driven decision-making.
 

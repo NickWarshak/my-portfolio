@@ -8,7 +8,7 @@ draft: false
 ### Information Systems Club (University of Cincinnati)
 **Interim Vice President** (And Treasurer) | *2024 – Present*
 
-* **Executive Strategy:** Facilitate executive board meetings to align club initiatives with the professional needs of 50+ members.
+* **Executive Strategy:** Facilitate executive board meetings to align club mission with the professional needs of 50+ members.
 * **Professional Development:** Coordinate guest speaker series and networking workshops to bridge the gap between IS students and Cincinnati’s tech industry.
 * **Financial Stewardship:** As Treasurer, manage the organization’s budget, ensuring transparent allocation of funds for semester-long events and professional seminars.
 * **Member Engagement:** Strategize outreach efforts to increase student participation and foster a collaborative community for aspiring IS professionals.
@@ -29,3 +29,4 @@ draft: false
 
 * **Community Building:** Co-founded a student organization dedicated to the appreciation of musical history and cultural influence.
 * **Organizational Development:** Assisted in securing official University of Cincinnati student organization status.
+* **Commitment:** The Beatles placed as my number 1 artist of 2025.
