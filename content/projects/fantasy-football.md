@@ -33,5 +33,3 @@ The engine doesn't just look at yardage totals; it calculates a "Weighted Compon
 
 ### Why This Matters
 This project demonstrates my ability to handle real-time data pipelines, manage asynchronous API calls, and translate complex business logic (betting odds) into actionable insights (fantasy projections).
-
----

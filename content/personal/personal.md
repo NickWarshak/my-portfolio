@@ -29,5 +29,3 @@
     4. **Changes** - Black Sabbath
     5. **Hey, Hey, What Can I Do** - Led Zeppelin
     6. **Video Killed The Radio Star** - The Buggles
-
----

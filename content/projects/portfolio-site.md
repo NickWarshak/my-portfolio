@@ -32,5 +32,3 @@ Developed a professional digital portfolio to showcase technical projects and ac
 
 ### Why it Matters
 This project demonstrates proficiency in infrastructure management and version control, essential skills for modern Information Systems roles. It serves as an example of my ability to learn new frameworks and deploy reliable, automated technical solutions.
-
----

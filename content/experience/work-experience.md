@@ -23,5 +23,3 @@ draft: false
 * **Asset Maintenance:** Managed the cleaning and presentation of high-value inventory (individual units valued at $50,000+).
 * **Professional Communication:** Collaborated directly with finance, sales, and management teams to ensure lot order met dealership standards.
 * **Trusted Operations:** Entrusted with company vehicles for long-distance transport and logistics tasks.
-
----

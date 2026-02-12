@@ -45,5 +45,3 @@ Academic foundation in Information Systems and Economics with a certification in
 * Intro to Modern Africa
 * Jazz Appreciation
 * Cultural Anthropology
-
----
