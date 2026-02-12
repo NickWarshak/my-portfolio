@@ -30,3 +30,5 @@ draft: false
 * **Community Building:** Co-founded a student organization dedicated to the appreciation of musical history and cultural influence.
 * **Organizational Development:** Assisted in securing official University of Cincinnati student organization status.
 * **Commitment:** The Beatles placed as my number 1 artist of 2025.
+
+---

@@ -44,3 +44,5 @@ The project focuses on minimizing the variance between predicted and actual valu
 
 ### Why This Matters
 This project demonstrates proficiency in the full data science lifecycle: from raw data ingestion and cleaning to feature engineering and statistical validation. It showcases an ability to use industry-standard Python libraries to derive actionable insights from complex datasets.
+
+---
