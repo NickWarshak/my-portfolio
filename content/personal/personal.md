@@ -2,8 +2,6 @@
     title: "About Me"
     date: 2026-02-05
     draft: false
-    description: "A collection of things I love that don't involve staring at a screen."
-    showToc: true
     ---
 
     ### 🎸 Music & Hobbies
