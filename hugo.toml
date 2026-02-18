@@ -27,6 +27,13 @@ theme = "PaperMod"
     [[params.socialIcons]]
         name = "phone"
         url = "tel:8595127297"
+    [params]
+    author.name = "Nick Warshak"
+    author.email = "warshanj@mail.uc.edu"
+    
+    assets = { disableFingerprinting = false }
+    env = "production"
+    mainSections = ["projects"]
 # Navigation Menu
 [[menu.main]]
     name = "Projects"
