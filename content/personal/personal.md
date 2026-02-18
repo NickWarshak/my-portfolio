@@ -11,7 +11,8 @@ Music is my biggest hobby and passion. I love listening and playing music whenev
 
 ### All-Time Favorite Movies
 I live down the street from an old fashioned movie theater and love going with the family on Tuesdays. Heres some of my favorites ever:
-* **Ferris Beuller's Day Off** * **Pulp Fiction**
+* **Ferris Beuller's Day Off** 
+* **Pulp Fiction**
 * **Good Will Hunting**
 * **Jojo Rabbit**
 * **Midnight in Paris**
@@ -20,7 +21,7 @@ I live down the street from an old fashioned movie theater and love going with t
 
 ### Current Rotation
 Songs I've been listening to lately.
-1. **Raspberry Beret** - Prince
+1. **Fly In** - Lil Wayne
 2. **Sweet Disposition** - The Temper Trap
 3. **Down, Down, Stream** - Zach Bryan
 4. **Changes** - Black Sabbath
