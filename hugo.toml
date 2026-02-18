@@ -2,7 +2,12 @@ baseURL = 'https://NickWarshak.github.io/my-portfolio/'
 languageCode = 'en-us'
 title = 'Nick Warshak'
 theme = "PaperMod"
+
 [params]
+    # Author info (Fixed for Hugo v0.150+)
+    author.name = "Nick Warshak"
+    author.email = "warshanj@mail.uc.edu"
+
     # General Site Settings
     assets = { disableFingerprinting = false }
     env = "production"
@@ -27,13 +32,7 @@ theme = "PaperMod"
     [[params.socialIcons]]
         name = "phone"
         url = "tel:8595127297"
-    [params]
-    author.name = "Nick Warshak"
-    author.email = "warshanj@mail.uc.edu"
-    
-    assets = { disableFingerprinting = false }
-    env = "production"
-    mainSections = ["projects"]
+
 # Navigation Menu
 [[menu.main]]
     name = "Projects"
