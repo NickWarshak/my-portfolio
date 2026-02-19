@@ -4,11 +4,10 @@ title = 'Nick Warshak'
 theme = "PaperMod"
 
 [params]
-    # Author info (Fixed for Hugo v0.150+)
     author.name = "Nick Warshak"
     author.email = "warshanj@mail.uc.edu"
+    showAuthor = false
 
-    # General Site Settings
     assets = { disableFingerprinting = false }
     env = "production"
     mainSections = ["projects"]
