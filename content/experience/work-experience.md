@@ -5,6 +5,13 @@ weight: 10
 draft: false
 ---
 
+### Paychex
+**AI Intern** | Cincinnati, OH | Summer 2026 (Upcoming)
+
+* Incoming AI internship focused on applied artificial intelligence within Paychex's enterprise technology division.
+
+---
+
 ### Jake Sweeney Kia
 **Data Entry & Analysis / Logistics Coordinator** | *Burlington, KY* | *Nov 2024 – Present*
 

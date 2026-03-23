@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CI/CD on Nick Warshak</title><link>https://NickWarshak.github.io/my-portfolio/tags/ci/cd/</link><description>Recent content in CI/CD on Nick Warshak</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://NickWarshak.github.io/my-portfolio/tags/ci/cd/index.xml" rel="self" type="application/rss+xml"/><item><title>Professional Portfolio Website</title><link>https://NickWarshak.github.io/my-portfolio/projects/portfolio-site/</link><pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate><guid>https://NickWarshak.github.io/my-portfolio/projects/portfolio-site/</guid><description>&lt;p&gt;&lt;a href="https://github.com/NickWarshak/my-portfolio"&gt;View the Source Code on GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="project-overview"&gt;Project Overview&lt;/h3&gt;
-&lt;p&gt;Developed a professional digital portfolio to showcase technical projects and academic achievements at the University of Cincinnati. This project involved managing the full development lifecycle, from local environment configuration to automated cloud deployment.&lt;/p&gt;
+&lt;p&gt;Designed and built a professional portfolio site from scratch using Hugo — no theme dependency. The entire visual design system was hand-written in a single CSS file using custom properties, fluid typography, and a light/dark mode toggle. Interactive animations are powered by GSAP with ScrollTrigger for scroll-based reveals.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id="technical-stack"&gt;Technical Stack&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Framework:&lt;/strong&gt; Hugo (Static Site Generator)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Theme:&lt;/strong&gt; PaperMod (Customized with CSS/TOML)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Version Control:&lt;/strong&gt; Git / GitHub&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Deployment:&lt;/strong&gt; GitHub Actions (CI/CD)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Design:&lt;/strong&gt; Custom CSS design system — zero framework or theme dependency&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Typography:&lt;/strong&gt; Cormorant Garamond (display) + Inter (UI), loaded via Google Fonts&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Animation:&lt;/strong&gt; GSAP 3.12 + ScrollTrigger&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deployment:&lt;/strong&gt; GitHub Actions → GitHub Pages (automated on push to main)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id="key-features--implementation"&gt;Key Features &amp;amp; Implementation&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Automated Deployment:&lt;/strong&gt; Configured a &lt;strong&gt;GitHub Actions&lt;/strong&gt; workflow to automatically build and deploy the site to GitHub Pages upon every &lt;strong&gt;GIT&lt;/strong&gt; push, ensuring a seamless CI/CD pipeline.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Custom Configuration:&lt;/strong&gt; Architected a modular site structure using &lt;strong&gt;TOML&lt;/strong&gt; to manage multi-category content, including Project, Experience, and Coursework sections.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Responsive Design:&lt;/strong&gt; Optimized the user interface (UI) through custom &lt;strong&gt;CSS&lt;/strong&gt; and PaperMod configuration for a professional, mobile-friendly experience.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Data Integrity:&lt;/strong&gt; Successfully managed troubleshooting for complex &lt;strong&gt;YAML/TOML&lt;/strong&gt; formatting and directory architecture.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom Design System:&lt;/strong&gt; Built a complete set of CSS custom properties for color tokens, spacing, and typography — supporting seamless light/dark mode switching via a &lt;code&gt;data-theme&lt;/code&gt; attribute and &lt;code&gt;localStorage&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Infinite Slider:&lt;/strong&gt; Engineered a CSS &lt;code&gt;@keyframes marquee&lt;/code&gt; loop with two duplicate tracks for a seamless, performant scroll. Pause-on-hover handled in vanilla JS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GSAP Animations:&lt;/strong&gt; Hero entrance animations on load, scroll-triggered fade-up reveals for below-fold content via &lt;code&gt;IntersectionObserver&lt;/code&gt; fallback.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hugo Pipes:&lt;/strong&gt; CSS is fingerprinted at build time for cache-busting. GitHub Actions passes the correct &lt;code&gt;--baseURL&lt;/code&gt; from &lt;code&gt;configure-pages&lt;/code&gt; output to ensure all links resolve correctly on GitHub Pages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No PaperMod:&lt;/strong&gt; Previous version used PaperMod theme with CSS overrides. Fully replaced with a custom &lt;code&gt;baseof.html&lt;/code&gt;, &lt;code&gt;list.html&lt;/code&gt;, &lt;code&gt;single.html&lt;/code&gt;, and partials for complete design control.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id="why-it-matters"&gt;Why it Matters&lt;/h3&gt;
-&lt;p&gt;This project demonstrates proficiency in infrastructure management and version control, essential skills for modern Information Systems roles. It serves as an example of my ability to learn new frameworks and deploy reliable, automated technical solutions.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;This project demonstrates end-to-end ownership of a production web product — from information architecture and visual design to CI/CD pipeline configuration and URL routing on a subdirectory-hosted GitHub Pages deployment.&lt;/p&gt;</description></item></channel></rss>

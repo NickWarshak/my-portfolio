@@ -2,33 +2,34 @@
 title: "Professional Portfolio Website"
 date: 2026-02-05
 draft: false
-description: "A high-performance portfolio site built with Hugo and deployed via GitHub Actions."
-tags: ["Hugo", "GitHub Actions", "Web Dev", "CI/CD"]
-showToc: true
+description: "A fully custom Hugo static site with a hand-built design system, deployed via GitHub Actions."
+tags: ["Hugo", "GSAP", "CSS", "GitHub Actions", "CI/CD"]
 Weight: 100
 ---
 [View the Source Code on GitHub](https://github.com/NickWarshak/my-portfolio)
 
 ### Project Overview
-Developed a professional digital portfolio to showcase technical projects and academic achievements at the University of Cincinnati. This project involved managing the full development lifecycle, from local environment configuration to automated cloud deployment.
+Designed and built a professional portfolio site from scratch using Hugo — no theme dependency. The entire visual design system was hand-written in a single CSS file using custom properties, fluid typography, and a light/dark mode toggle. Interactive animations are powered by GSAP with ScrollTrigger for scroll-based reveals.
 
 ---
 
 ### Technical Stack
 * **Framework:** Hugo (Static Site Generator)
-* **Theme:** PaperMod (Customized with CSS/TOML)
-* **Version Control:** Git / GitHub
-* **Deployment:** GitHub Actions (CI/CD)
+* **Design:** Custom CSS design system — zero framework or theme dependency
+* **Typography:** Cormorant Garamond (display) + Inter (UI), loaded via Google Fonts
+* **Animation:** GSAP 3.12 + ScrollTrigger
+* **Deployment:** GitHub Actions → GitHub Pages (automated on push to main)
 
 ---
 
 ### Key Features & Implementation
-* **Automated Deployment:** Configured a **GitHub Actions** workflow to automatically build and deploy the site to GitHub Pages upon every **GIT** push, ensuring a seamless CI/CD pipeline.
-* **Custom Configuration:** Architected a modular site structure using **TOML** to manage multi-category content, including Project, Experience, and Coursework sections.
-* **Responsive Design:** Optimized the user interface (UI) through custom **CSS** and PaperMod configuration for a professional, mobile-friendly experience.
-* **Data Integrity:** Successfully managed troubleshooting for complex **YAML/TOML** formatting and directory architecture.
+* **Custom Design System:** Built a complete set of CSS custom properties for color tokens, spacing, and typography — supporting seamless light/dark mode switching via a `data-theme` attribute and `localStorage`.
+* **Infinite Slider:** Engineered a CSS `@keyframes marquee` loop with two duplicate tracks for a seamless, performant scroll. Pause-on-hover handled in vanilla JS.
+* **GSAP Animations:** Hero entrance animations on load, scroll-triggered fade-up reveals for below-fold content via `IntersectionObserver` fallback.
+* **Hugo Pipes:** CSS is fingerprinted at build time for cache-busting. GitHub Actions passes the correct `--baseURL` from `configure-pages` output to ensure all links resolve correctly on GitHub Pages.
+* **No PaperMod:** Previous version used PaperMod theme with CSS overrides. Fully replaced with a custom `baseof.html`, `list.html`, `single.html`, and partials for complete design control.
 
 ---
 
 ### Why it Matters
-This project demonstrates proficiency in infrastructure management and version control, essential skills for modern Information Systems roles. It serves as an example of my ability to learn new frameworks and deploy reliable, automated technical solutions.
+This project demonstrates end-to-end ownership of a production web product — from information architecture and visual design to CI/CD pipeline configuration and URL routing on a subdirectory-hosted GitHub Pages deployment.
