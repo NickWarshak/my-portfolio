@@ -2,8 +2,8 @@
 
 {{- if .IsHome }}
 {{- /* ════════════════════════════════
-HOMEPAGE
-════════════════════════════════ */}}
+     HOMEPAGE
+     ════════════════════════════════ */}}
 
 <!-- HERO -->
 <section class="hero">
@@ -17,6 +17,7 @@ HOMEPAGE
   </div>
 
   <div class="hero-exp">
+    {{- $workPage := site.GetPage "/experience/work-experience" }}
     <div class="hero-exp-item">
       <span class="hero-exp-company">Paychex</span>
       <span class="hero-exp-role">AI Intern</span>
@@ -40,42 +41,43 @@ HOMEPAGE
   </div>
 
   <div class="slider-wrap" id="slider-wrap">
+    {{- $mc := site.GetPage "/projects/margin-command" }}
+    {{- $ff := site.GetPage "/projects/fantasy-football" }}
+    {{- $ps := site.GetPage "/projects/portfolio-site" }}
+    {{- $gd := site.GetPage "/projects/gradient-descent" }}
+
     <!-- Track A -->
     <div class="slider-track">
-      <a class="s-card s-card-link" href="{{ (site.GetPage " /projects/margin-command").Permalink }}">
+      <a class="s-card s-card-link" href="{{ $mc.Permalink }}">
         <span class="s-card-title">Margin Command</span>
-        <p class="s-card-desc">Inventory telemetry HUD for dealership principals. Surfaces floorplan bleed and sales
-          velocity in real time.</p>
+        <p class="s-card-desc">Inventory telemetry HUD for dealership principals. Surfaces floorplan bleed and sales velocity in real time.</p>
         <div class="s-card-tags">
           <span class="s-card-tag">Python</span>
           <span class="s-card-tag">Streamlit</span>
           <span class="s-card-tag">Plotly</span>
         </div>
       </a>
-      <a class="s-card s-card-link" href="{{ (site.GetPage " /projects/fantasy-football").Permalink }}">
+      <a class="s-card s-card-link" href="{{ $ff.Permalink }}">
         <span class="s-card-title">NFL Prediction Engine</span>
-        <p class="s-card-desc">Fantasy football projection system combining historical data with algorithmic scoring
-          models.</p>
+        <p class="s-card-desc">Fantasy football projection system combining historical data with algorithmic scoring models.</p>
         <div class="s-card-tags">
           <span class="s-card-tag">C#</span>
           <span class="s-card-tag">.NET</span>
           <span class="s-card-tag">ML</span>
         </div>
       </a>
-      <a class="s-card s-card-link" href="{{ (site.GetPage " /projects/portfolio-site").Permalink }}">
+      <a class="s-card s-card-link" href="{{ $ps.Permalink }}">
         <span class="s-card-title">Portfolio Site</span>
-        <p class="s-card-desc">This site — hand-built Hugo static site with a full custom design system and no theme
-          dependency.</p>
+        <p class="s-card-desc">This site — hand-built Hugo static site with a full custom design system and no theme dependency.</p>
         <div class="s-card-tags">
           <span class="s-card-tag">Hugo</span>
           <span class="s-card-tag">GSAP</span>
           <span class="s-card-tag">CSS</span>
         </div>
       </a>
-      <a class="s-card s-card-link" href="{{ (site.GetPage " /projects/gradient-descent").Permalink }}">
+      <a class="s-card s-card-link" href="{{ $gd.Permalink }}">
         <span class="s-card-title">Gradient Descent</span>
-        <p class="s-card-desc">Interactive visual exploration of ML optimization concepts through gradient descent
-          demonstrations.</p>
+        <p class="s-card-desc">Interactive visual exploration of ML optimization concepts through gradient descent demonstrations.</p>
         <div class="s-card-tags">
           <span class="s-card-tag">Python</span>
           <span class="s-card-tag">NumPy</span>
@@ -86,40 +88,36 @@ HOMEPAGE
 
     <!-- Track B — duplicate for seamless loop -->
     <div class="slider-track" aria-hidden="true">
-      <a class="s-card s-card-link" href="{{ (site.GetPage " /projects/margin-command").Permalink }}">
+      <a class="s-card s-card-link" href="{{ $mc.Permalink }}">
         <span class="s-card-title">Margin Command</span>
-        <p class="s-card-desc">Inventory telemetry HUD for dealership principals. Surfaces floorplan bleed and sales
-          velocity in real time.</p>
+        <p class="s-card-desc">Inventory telemetry HUD for dealership principals. Surfaces floorplan bleed and sales velocity in real time.</p>
         <div class="s-card-tags">
           <span class="s-card-tag">Python</span>
           <span class="s-card-tag">Streamlit</span>
           <span class="s-card-tag">Plotly</span>
         </div>
       </a>
-      <a class="s-card s-card-link" href="{{ (site.GetPage " /projects/fantasy-football").Permalink }}">
+      <a class="s-card s-card-link" href="{{ $ff.Permalink }}">
         <span class="s-card-title">NFL Prediction Engine</span>
-        <p class="s-card-desc">Fantasy football projection system combining historical data with algorithmic scoring
-          models.</p>
+        <p class="s-card-desc">Fantasy football projection system combining historical data with algorithmic scoring models.</p>
         <div class="s-card-tags">
           <span class="s-card-tag">C#</span>
           <span class="s-card-tag">.NET</span>
           <span class="s-card-tag">ML</span>
         </div>
       </a>
-      <a class="s-card s-card-link" href="{{ (site.GetPage " /projects/portfolio-site").Permalink }}">
+      <a class="s-card s-card-link" href="{{ $ps.Permalink }}">
         <span class="s-card-title">Portfolio Site</span>
-        <p class="s-card-desc">This site — hand-built Hugo static site with a full custom design system and no theme
-          dependency.</p>
+        <p class="s-card-desc">This site — hand-built Hugo static site with a full custom design system and no theme dependency.</p>
         <div class="s-card-tags">
           <span class="s-card-tag">Hugo</span>
           <span class="s-card-tag">GSAP</span>
           <span class="s-card-tag">CSS</span>
         </div>
       </a>
-      <a class="s-card s-card-link" href="{{ (site.GetPage " /projects/gradient-descent").Permalink }}">
+      <a class="s-card s-card-link" href="{{ $gd.Permalink }}">
         <span class="s-card-title">Gradient Descent</span>
-        <p class="s-card-desc">Interactive visual exploration of ML optimization concepts through gradient descent
-          demonstrations.</p>
+        <p class="s-card-desc">Interactive visual exploration of ML optimization concepts through gradient descent demonstrations.</p>
         <div class="s-card-tags">
           <span class="s-card-tag">Python</span>
           <span class="s-card-tag">NumPy</span>
@@ -135,8 +133,8 @@ HOMEPAGE
   <div class="about-label">About</div>
   <div class="about-body">
     <p>UC Lindner graduate in Information Systems &amp; Computer Science.
-      I build data systems that surface insight from operational complexity —
-      turning raw numbers into interfaces people actually use.</p>
+    I build data systems that surface insight from operational complexity —
+    turning raw numbers into interfaces people actually use.</p>
     <div class="about-tags">
       <span class="chip">Artificial Intelligence</span>
       <span class="chip">Machine Learning</span>
@@ -147,50 +145,49 @@ HOMEPAGE
 </section>
 
 <script>
-  (function () {
-    // Slider pause on hover
-    var wrap = document.getElementById('slider-wrap');
-    if (wrap) {
-      wrap.addEventListener('mouseenter', function () {
-        wrap.querySelectorAll('.slider-track').forEach(function (t) {
-          t.style.animationPlayState = 'paused';
-        });
+(function () {
+  // Slider pause on hover
+  var wrap = document.getElementById('slider-wrap');
+  if (wrap) {
+    wrap.addEventListener('mouseenter', function () {
+      wrap.querySelectorAll('.slider-track').forEach(function (t) {
+        t.style.animationPlayState = 'paused';
       });
-      wrap.addEventListener('mouseleave', function () {
-        wrap.querySelectorAll('.slider-track').forEach(function (t) {
-          t.style.animationPlayState = 'running';
+    });
+    wrap.addEventListener('mouseleave', function () {
+      wrap.querySelectorAll('.slider-track').forEach(function (t) {
+        t.style.animationPlayState = 'running';
+      });
+    });
+  }
+
+  // GSAP animations
+  window.addEventListener('load', function () {
+    if (typeof gsap === 'undefined') return;
+
+    // Hero entrance — staggered
+    gsap.from('.hero-title', { y: 48, opacity: 0, duration: 1.1, delay: 0.12, ease: 'power3.out' });
+    gsap.from('.hero-ctas',  { y: 28, opacity: 0, duration: 0.8, delay: 0.4,  ease: 'power2.out' });
+    gsap.from('.hero-exp',   { y: 18, opacity: 0, duration: 0.7, delay: 0.6,  ease: 'power2.out' });
+
+    // Scroll-triggered reveals
+    if (typeof ScrollTrigger !== 'undefined') {
+      gsap.registerPlugin(ScrollTrigger);
+      gsap.utils.toArray('.reveal').forEach(function (el) {
+        gsap.to(el, {
+          y: 0, opacity: 1, duration: 0.9, ease: 'power2.out',
+          scrollTrigger: { trigger: el, start: 'top 87%' }
         });
       });
     }
-
-    // GSAP animations
-    window.addEventListener('load', function () {
-      if (typeof gsap === 'undefined') return;
-
-      // Hero entrance — staggered
-      gsap.from('.hero-label', { y: 16, opacity: 0, duration: 0.7, ease: 'power2.out' });
-      gsap.from('.hero-title', { y: 48, opacity: 0, duration: 1.1, delay: 0.12, ease: 'power3.out' });
-      gsap.from('.hero-ctas', { y: 28, opacity: 0, duration: 0.8, delay: 0.4, ease: 'power2.out' });
-      gsap.from('.hero-meta', { y: 18, opacity: 0, duration: 0.7, delay: 0.6, ease: 'power2.out' });
-
-      // Scroll-triggered reveals
-      if (typeof ScrollTrigger !== 'undefined') {
-        gsap.registerPlugin(ScrollTrigger);
-        gsap.utils.toArray('.reveal').forEach(function (el) {
-          gsap.to(el, {
-            y: 0, opacity: 1, duration: 0.9, ease: 'power2.out',
-            scrollTrigger: { trigger: el, start: 'top 87%' }
-          });
-        });
-      }
-    });
-  }());
+  });
+}());
 </script>
 
 {{- else }}
 {{- /* ════════════════════════════════
-SECTION PAGES (Projects, Experience, etc.)
-════════════════════════════════ */}}
+     SECTION PAGES (Projects, Experience, etc.)
+     ════════════════════════════════ */}}
 
 <div class="sec-header">
   <p class="sec-eyebrow">{{ .Section | title }}</p>
@@ -246,24 +243,24 @@ SECTION PAGES (Projects, Experience, etc.)
 {{- end }}
 
 <script>
-  window.addEventListener('load', function () {
-    if (typeof gsap === 'undefined') return;
-    gsap.from('.sec-header', { y: 20, opacity: 0, duration: 0.75, ease: 'power2.out' });
-    if (typeof ScrollTrigger === 'undefined') {
-      document.querySelectorAll('.reveal').forEach(function (el) {
-        el.style.opacity = 1;
-        el.style.transform = 'none';
-      });
-      return;
-    }
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.utils.toArray('.reveal').forEach(function (el) {
-      gsap.to(el, {
-        y: 0, opacity: 1, duration: 0.8, ease: 'power2.out',
-        scrollTrigger: { trigger: el, start: 'top 88%' }
-      });
+window.addEventListener('load', function () {
+  if (typeof gsap === 'undefined') return;
+  gsap.from('.sec-header', { y: 20, opacity: 0, duration: 0.75, ease: 'power2.out' });
+  if (typeof ScrollTrigger === 'undefined') {
+    document.querySelectorAll('.reveal').forEach(function (el) {
+      el.style.opacity = 1;
+      el.style.transform = 'none';
+    });
+    return;
+  }
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.utils.toArray('.reveal').forEach(function (el) {
+    gsap.to(el, {
+      y: 0, opacity: 1, duration: 0.8, ease: 'power2.out',
+      scrollTrigger: { trigger: el, start: 'top 88%' }
     });
   });
+});
 </script>
 
 {{- end }}{{/* .IsHome */}}
