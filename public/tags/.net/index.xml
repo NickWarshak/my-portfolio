@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.NET on Nick Warshak</title>
+    <link>http://localhost:55244/my-portfolio/tags/.net/</link>
+    <description>Recent content in .NET on Nick Warshak</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55244/my-portfolio/tags/.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fantasy Football Projection Engine</title>
+      <link>http://localhost:55244/my-portfolio/projects/fantasy-football/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55244/my-portfolio/projects/fantasy-football/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/NickWarshak/fantasy-football-analyzer&#34;&gt;View Source Code on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;&#xA;&lt;p&gt;This project is a C# application designed to bridge the gap between sports betting markets and fantasy football projections. By pulling real-time player prop data, the engine calculates &amp;ldquo;implied&amp;rdquo; fantasy scores based on market probability rather than just historical averages.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;technical-stack&#34;&gt;Technical Stack&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Language &amp;amp; Framework:&lt;/strong&gt; Built using &lt;strong&gt;C#&lt;/strong&gt; and &lt;strong&gt;.NET&lt;/strong&gt; in Visual Studio.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;API Integration:&lt;/strong&gt; Utilizes &lt;strong&gt;Asynchronous Programming (&lt;code&gt;async/await&lt;/code&gt;)&lt;/strong&gt; to fetch real-time event and market data from &lt;em&gt;The Odds API&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Parsing:&lt;/strong&gt; Leverages &lt;strong&gt;System.Text.Json&lt;/strong&gt; for efficient serialization of complex, nested JSON responses from multiple bookmakers.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Security:&lt;/strong&gt; Implemented Environment Variables to manage sensitive &lt;strong&gt;API&lt;/strong&gt; credentials, ensuring no hardcoded keys are exposed in version control.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;the-logic-the-math&#34;&gt;The Logic (The Math)&lt;/h3&gt;&#xA;&lt;p&gt;The engine doesn&amp;rsquo;t just look at yardage totals; it calculates a &amp;ldquo;Weighted Component Score&amp;rdquo;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head><script src="/my-portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=55244&amp;path=my-portfolio/livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/my-portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=my-portfolio/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Nick Warshak">
-<title>Tags · Nick Warshak</title><script>
+<title>Resume · Nick Warshak</title><script>
   (function(){var t=localStorage.getItem('theme');if(t==='dark'||(t===null&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}})();
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="http://localhost:55244/my-portfolio/css/main.8c73da89a4013184075a9c25c22846f3f5065a379b849e15ead25ea6e3b78842.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="http://localhost:1313/my-portfolio/css/main.8c73da89a4013184075a9c25c22846f3f5065a379b849e15ead25ea6e3b78842.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 </head>
 <body><header class="site-header">
@@ -42,34 +42,29 @@
   </nav>
 </header>
 <main id="main-content">
+<div class="article-wrap">
+  <a class="article-back" href="http://localhost:1313/my-portfolio/">← Nick Warshak</a>
 
-<div class="sec-header">
-  <p class="sec-eyebrow">Tags</p>
-  <h1 class="sec-title">Tags</h1>
-</div>
+  <h1 class="article-title">Resume</h1>
 
+  <hr class="article-divider">
 
-<div class="entry-list">
+  <div class="article-body">
+    
+  </div>
+
 </div>
 
 <script>
 window.addEventListener('load', function () {
   if (typeof gsap === 'undefined') return;
-  gsap.from('.sec-header', { y: 20, opacity: 0, duration: 0.75, ease: 'power2.out' });
-  if (typeof ScrollTrigger === 'undefined') {
-    document.querySelectorAll('.reveal').forEach(function (el) {
-      el.style.opacity = 1;
-      el.style.transform = 'none';
-    });
-    return;
-  }
-  gsap.registerPlugin(ScrollTrigger);
-  gsap.utils.toArray('.reveal').forEach(function (el) {
-    gsap.to(el, {
-      y: 0, opacity: 1, duration: 0.8, ease: 'power2.out',
-      scrollTrigger: { trigger: el, start: 'top 88%' }
-    });
+  gsap.from('.article-back',    { y: 12, opacity: 0, duration: 0.55, ease: 'power2.out' });
+  gsap.from('.article-eyebrow', { y: 14, opacity: 0, duration: 0.65, delay: 0.06, ease: 'power2.out' });
+  gsap.from('.article-title',   { y: 30, opacity: 0, duration: 0.9,  delay: 0.14, ease: 'power3.out' });
+  gsap.from('.article-desc, .article-tags, .article-divider', {
+    y: 18, opacity: 0, duration: 0.7, delay: 0.35, stagger: 0.08, ease: 'power2.out'
   });
+  gsap.from('.article-body',    { y: 20, opacity: 0, duration: 0.75, delay: 0.5, ease: 'power2.out' });
 });
 </script></main><footer>
   <div class="site-footer">

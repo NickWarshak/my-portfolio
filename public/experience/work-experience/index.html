@@ -3,7 +3,7 @@
 <head><script src="/my-portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=55244&amp;path=my-portfolio/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Nick Warshak">
-<title>Tags · Nick Warshak</title><script>
+<title>Work Experience · Nick Warshak</title><script>
   (function(){var t=localStorage.getItem('theme');if(t==='dark'||(t===null&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}})();
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
     <div class="nav-links">
       <a class="nav-link"
          href="/my-portfolio/projects/">Projects</a>
-      <a class="nav-link"
+      <a class="nav-link active"
          href="/my-portfolio/experience/">Experience</a>
       <a class="nav-link"
          href="/my-portfolio/coursework/">Coursework</a>
@@ -42,34 +42,48 @@
   </nav>
 </header>
 <main id="main-content">
+<div class="article-wrap">
+  <a class="article-back" href="http://localhost:55244/my-portfolio/experience/">← Experience</a>
+  <p class="article-eyebrow">Experience</p>
 
-<div class="sec-header">
-  <p class="sec-eyebrow">Tags</p>
-  <h1 class="sec-title">Tags</h1>
-</div>
+  <h1 class="article-title">Work Experience</h1>
 
+  <hr class="article-divider">
 
-<div class="entry-list">
+  <div class="article-body">
+    <h3 id="jake-sweeney-kia">Jake Sweeney Kia</h3>
+<p><strong>Data Entry &amp; Analysis / Logistics Coordinator</strong> | <em>Burlington, KY</em> | <em>Nov 2024 – Present</em></p>
+<ul>
+<li><strong>Inventory Data Architecture:</strong> Maintain and audit data integrity for 400+ vehicles valued at over <strong>$10M</strong> across five internal and external databases.</li>
+<li><strong>Market &amp; Pricing Analysis:</strong> Perform recurring inventory analyses to support competitive pricing strategies and vehicle placement decisions.</li>
+<li><strong>Supply Chain Logistics:</strong> Coordinate vehicle movement across four dealership locations, managing a daily volume of 30–100+ units based on transport demand.</li>
+<li><strong>App Development:</strong> Developed and maintained multiple online application that were used by management and sales.</li>
+<li><strong>Strategic Support:</strong> Identify high-visibility and unique inventory for main-lot placement to drive sales strategy and improve transfer efficiency.</li>
+<li><strong>Cross-Functional Reporting:</strong> Provide ad-hoc data pulls and analytical support to management, sales, and finance teams to facilitate data-driven decision-making.</li>
+</ul>
+<hr>
+<p><strong>Lot Technician</strong> | <em>June 2023 – Nov 2024</em></p>
+<ul>
+<li><strong>Operational Leadership:</strong> Promoted to lead a peer team of 10+ individuals to manage the organization and parking flow of a lot with 500+ vehicles.</li>
+<li><strong>Asset Maintenance:</strong> Managed the cleaning and presentation of high-value inventory (individual units valued at $50,000+).</li>
+<li><strong>Professional Communication:</strong> Collaborated directly with finance, sales, and management teams to ensure lot order met dealership standards.</li>
+<li><strong>Trusted Operations:</strong> Entrusted with company vehicles for long-distance transport and logistics tasks.</li>
+</ul>
+
+  </div>
+
 </div>
 
 <script>
 window.addEventListener('load', function () {
   if (typeof gsap === 'undefined') return;
-  gsap.from('.sec-header', { y: 20, opacity: 0, duration: 0.75, ease: 'power2.out' });
-  if (typeof ScrollTrigger === 'undefined') {
-    document.querySelectorAll('.reveal').forEach(function (el) {
-      el.style.opacity = 1;
-      el.style.transform = 'none';
-    });
-    return;
-  }
-  gsap.registerPlugin(ScrollTrigger);
-  gsap.utils.toArray('.reveal').forEach(function (el) {
-    gsap.to(el, {
-      y: 0, opacity: 1, duration: 0.8, ease: 'power2.out',
-      scrollTrigger: { trigger: el, start: 'top 88%' }
-    });
+  gsap.from('.article-back',    { y: 12, opacity: 0, duration: 0.55, ease: 'power2.out' });
+  gsap.from('.article-eyebrow', { y: 14, opacity: 0, duration: 0.65, delay: 0.06, ease: 'power2.out' });
+  gsap.from('.article-title',   { y: 30, opacity: 0, duration: 0.9,  delay: 0.14, ease: 'power3.out' });
+  gsap.from('.article-desc, .article-tags, .article-divider', {
+    y: 18, opacity: 0, duration: 0.7, delay: 0.35, stagger: 0.08, ease: 'power2.out'
   });
+  gsap.from('.article-body',    { y: 20, opacity: 0, duration: 0.75, delay: 0.5, ease: 'power2.out' });
 });
 </script></main><footer>
   <div class="site-footer">

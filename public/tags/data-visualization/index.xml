@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Visualization on Nick Warshak</title>
+    <link>http://localhost:55244/my-portfolio/tags/data-visualization/</link>
+    <description>Recent content in Data Visualization on Nick Warshak</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55244/my-portfolio/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Margin Command: Inventory Intelligence HUD</title>
+      <link>http://localhost:55244/my-portfolio/projects/margin-command/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55244/my-portfolio/projects/margin-command/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://margincommand.streamlit.app&#34;&gt;Live Application&lt;/a&gt; | &lt;a href=&#34;https://github.com/NickWarshak/margin-command&#34;&gt;View Source Code on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Margin Command&lt;/strong&gt; is a strategic &amp;ldquo;Command Center&amp;rdquo; for automotive inventory management. Moving away from traditional, static spreadsheets, this tool provides a high-contrast, visual HUD (Heads-Up Display) for dealership principals to identify which units are generating profit and which are &amp;ldquo;bleeding&amp;rdquo; capital due to floorplan interest.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;technical-stack&#34;&gt;Technical Stack&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Framework:&lt;/strong&gt; Built with &lt;strong&gt;Streamlit&lt;/strong&gt; for a responsive, web-based UI.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Visualization:&lt;/strong&gt; Utilizes &lt;strong&gt;Plotly Express&lt;/strong&gt; for hierarchical data exploration (Sunburst charts) and interactive data matrices.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Processing:&lt;/strong&gt; Leverages &lt;strong&gt;Pandas&lt;/strong&gt; and &lt;strong&gt;NumPy&lt;/strong&gt; to execute complex pivot table subtractions for &amp;ldquo;Gap Analysis.&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Styling:&lt;/strong&gt; Custom &lt;strong&gt;CSS Injection&lt;/strong&gt; to create a &amp;ldquo;Gallery&amp;rdquo; aesthetic—moving beyond standard dashboard templates into a bespoke, luxury-brand interface.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;key-features--logic&#34;&gt;Key Features &amp;amp; Logic&lt;/h3&gt;&#xA;&lt;p&gt;The engine focuses on the &amp;ldquo;cost of time,&amp;rdquo; transforming raw stock data into actionable financial insights:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

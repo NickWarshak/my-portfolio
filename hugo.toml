@@ -1,54 +1,26 @@
 baseURL = 'https://NickWarshak.github.io/my-portfolio/'
 languageCode = 'en-us'
 title = 'Nick Warshak'
-theme = "PaperMod"
 
 [params]
-    author.name = "Nick Warshak"
-    author.email = "warshanj@mail.uc.edu"
-    showAuthor = false
-
-    assets = { disableFingerprinting = false }
-    env = "production"
-    mainSections = ["projects"]
-
-    [params.homeInfoParams]
-        Title = "Personal Website"
-        Content = "Hi, I am an Information Systems, Economics, and Computer Science student at the University of Cincinnati. If you are interested, feel free to check out my projects, experience, coursework, or personal section to learn a little more about me."
-
-    [[params.socialIcons]]
-        name = "linkedin"
-        url = "https://linkedin.com/in/nicholas-warshak"
-
-    [[params.socialIcons]]
-        name = "github"
-        url = "https://github.com/NickWarshak"
-
-    [[params.socialIcons]]
-        name = "email"
-        url = "mailto:warshanj@mail.uc.edu"
-
-    [[params.socialIcons]]
-        name = "phone"
-        url = "tel:8595127297"
-
-# Navigation Menu
-[[menu.main]]
-    name = "Projects"
-    url = "/projects/"
-    weight = 10
+  mainSections = ["projects"]
 
 [[menu.main]]
-    name = "Experience"
-    url = "/experience/"
-    weight = 20
+  name = "Projects"
+  url  = "/projects/"
+  weight = 10
 
 [[menu.main]]
-    name = "Coursework"
-    url = "/coursework/"
-    weight = 30
+  name = "Experience"
+  url  = "/experience/"
+  weight = 20
 
 [[menu.main]]
-    name = "Personal"
-    url = "/personal/"
-    weight = 40
+  name = "Coursework"
+  url  = "/coursework/"
+  weight = 30
+
+[[menu.main]]
+  name = "Personal"
+  url  = "/personal/"
+  weight = 40

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Nick Warshak</title>
+    <link>http://localhost:55244/my-portfolio/tags/hugo/</link>
+    <description>Recent content in Hugo on Nick Warshak</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55244/my-portfolio/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Professional Portfolio Website</title>
+      <link>http://localhost:55244/my-portfolio/projects/portfolio-site/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55244/my-portfolio/projects/portfolio-site/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/NickWarshak/my-portfolio&#34;&gt;View the Source Code on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;&#xA;&lt;p&gt;Developed a professional digital portfolio to showcase technical projects and academic achievements at the University of Cincinnati. This project involved managing the full development lifecycle, from local environment configuration to automated cloud deployment.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;technical-stack&#34;&gt;Technical Stack&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Framework:&lt;/strong&gt; Hugo (Static Site Generator)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Theme:&lt;/strong&gt; PaperMod (Customized with CSS/TOML)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Version Control:&lt;/strong&gt; Git / GitHub&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deployment:&lt;/strong&gt; GitHub Actions (CI/CD)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;key-features--implementation&#34;&gt;Key Features &amp;amp; Implementation&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Automated Deployment:&lt;/strong&gt; Configured a &lt;strong&gt;GitHub Actions&lt;/strong&gt; workflow to automatically build and deploy the site to GitHub Pages upon every &lt;strong&gt;GIT&lt;/strong&gt; push, ensuring a seamless CI/CD pipeline.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Custom Configuration:&lt;/strong&gt; Architected a modular site structure using &lt;strong&gt;TOML&lt;/strong&gt; to manage multi-category content, including Project, Experience, and Coursework sections.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Responsive Design:&lt;/strong&gt; Optimized the user interface (UI) through custom &lt;strong&gt;CSS&lt;/strong&gt; and PaperMod configuration for a professional, mobile-friendly experience.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Integrity:&lt;/strong&gt; Successfully managed troubleshooting for complex &lt;strong&gt;YAML/TOML&lt;/strong&gt; formatting and directory architecture.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;why-it-matters&#34;&gt;Why it Matters&lt;/h3&gt;&#xA;&lt;p&gt;This project demonstrates proficiency in infrastructure management and version control, essential skills for modern Information Systems roles. It serves as an example of my ability to learn new frameworks and deploy reliable, automated technical solutions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,8 +2,8 @@
 <html lang="en" data-theme="light">
 <head><script src="/my-portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=55244&amp;path=my-portfolio/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Nick Warshak">
-<title>Tags · Nick Warshak</title><script>
+<meta name="description" content="A high-performance portfolio site built with Hugo and deployed via GitHub Actions.">
+<title>Professional Portfolio Website · Nick Warshak</title><script>
   (function(){var t=localStorage.getItem('theme');if(t==='dark'||(t===null&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}})();
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
     <a class="nav-logo" href="/">Nick Warshak</a>
 
     <div class="nav-links">
-      <a class="nav-link"
+      <a class="nav-link active"
          href="/my-portfolio/projects/">Projects</a>
       <a class="nav-link"
          href="/my-portfolio/experience/">Experience</a>
@@ -42,34 +42,55 @@
   </nav>
 </header>
 <main id="main-content">
+<div class="article-wrap">
+  <a class="article-back" href="http://localhost:55244/my-portfolio/projects/">← Projects</a>
+  <p class="article-eyebrow">Projects</p>
 
-<div class="sec-header">
-  <p class="sec-eyebrow">Tags</p>
-  <h1 class="sec-title">Tags</h1>
-</div>
+  <h1 class="article-title">Professional Portfolio Website</h1>
+  <p class="article-desc">A high-performance portfolio site built with Hugo and deployed via GitHub Actions.</p>
+  <div class="article-tags"><span class="tag">Hugo</span><span class="tag">GitHub Actions</span><span class="tag">Web Dev</span><span class="tag">CI/CD</span>
+  </div>
 
+  <hr class="article-divider">
 
-<div class="entry-list">
+  <div class="article-body">
+    <p><a href="https://github.com/NickWarshak/my-portfolio">View the Source Code on GitHub</a></p>
+<h3 id="project-overview">Project Overview</h3>
+<p>Developed a professional digital portfolio to showcase technical projects and academic achievements at the University of Cincinnati. This project involved managing the full development lifecycle, from local environment configuration to automated cloud deployment.</p>
+<hr>
+<h3 id="technical-stack">Technical Stack</h3>
+<ul>
+<li><strong>Framework:</strong> Hugo (Static Site Generator)</li>
+<li><strong>Theme:</strong> PaperMod (Customized with CSS/TOML)</li>
+<li><strong>Version Control:</strong> Git / GitHub</li>
+<li><strong>Deployment:</strong> GitHub Actions (CI/CD)</li>
+</ul>
+<hr>
+<h3 id="key-features--implementation">Key Features &amp; Implementation</h3>
+<ul>
+<li><strong>Automated Deployment:</strong> Configured a <strong>GitHub Actions</strong> workflow to automatically build and deploy the site to GitHub Pages upon every <strong>GIT</strong> push, ensuring a seamless CI/CD pipeline.</li>
+<li><strong>Custom Configuration:</strong> Architected a modular site structure using <strong>TOML</strong> to manage multi-category content, including Project, Experience, and Coursework sections.</li>
+<li><strong>Responsive Design:</strong> Optimized the user interface (UI) through custom <strong>CSS</strong> and PaperMod configuration for a professional, mobile-friendly experience.</li>
+<li><strong>Data Integrity:</strong> Successfully managed troubleshooting for complex <strong>YAML/TOML</strong> formatting and directory architecture.</li>
+</ul>
+<hr>
+<h3 id="why-it-matters">Why it Matters</h3>
+<p>This project demonstrates proficiency in infrastructure management and version control, essential skills for modern Information Systems roles. It serves as an example of my ability to learn new frameworks and deploy reliable, automated technical solutions.</p>
+
+  </div>
+
 </div>
 
 <script>
 window.addEventListener('load', function () {
   if (typeof gsap === 'undefined') return;
-  gsap.from('.sec-header', { y: 20, opacity: 0, duration: 0.75, ease: 'power2.out' });
-  if (typeof ScrollTrigger === 'undefined') {
-    document.querySelectorAll('.reveal').forEach(function (el) {
-      el.style.opacity = 1;
-      el.style.transform = 'none';
-    });
-    return;
-  }
-  gsap.registerPlugin(ScrollTrigger);
-  gsap.utils.toArray('.reveal').forEach(function (el) {
-    gsap.to(el, {
-      y: 0, opacity: 1, duration: 0.8, ease: 'power2.out',
-      scrollTrigger: { trigger: el, start: 'top 88%' }
-    });
+  gsap.from('.article-back',    { y: 12, opacity: 0, duration: 0.55, ease: 'power2.out' });
+  gsap.from('.article-eyebrow', { y: 14, opacity: 0, duration: 0.65, delay: 0.06, ease: 'power2.out' });
+  gsap.from('.article-title',   { y: 30, opacity: 0, duration: 0.9,  delay: 0.14, ease: 'power3.out' });
+  gsap.from('.article-desc, .article-tags, .article-divider', {
+    y: 18, opacity: 0, duration: 0.7, delay: 0.35, stagger: 0.08, ease: 'power2.out'
   });
+  gsap.from('.article-body',    { y: 20, opacity: 0, duration: 0.75, delay: 0.5, ease: 'power2.out' });
 });
 </script></main><footer>
   <div class="site-footer">

@@ -3,7 +3,7 @@
 <head><script src="/my-portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=55244&amp;path=my-portfolio/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Nick Warshak">
-<title>Tags · Nick Warshak</title><script>
+<title>Relevant Coursework · Nick Warshak</title><script>
   (function(){var t=localStorage.getItem('theme');if(t==='dark'||(t===null&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}})();
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
          href="/my-portfolio/projects/">Projects</a>
       <a class="nav-link"
          href="/my-portfolio/experience/">Experience</a>
-      <a class="nav-link"
+      <a class="nav-link active"
          href="/my-portfolio/coursework/">Coursework</a>
       <a class="nav-link"
          href="/my-portfolio/personal/">Personal</a>
@@ -42,34 +42,70 @@
   </nav>
 </header>
 <main id="main-content">
+<div class="article-wrap">
+  <a class="article-back" href="http://localhost:55244/my-portfolio/">← Nick Warshak</a>
 
-<div class="sec-header">
-  <p class="sec-eyebrow">Tags</p>
-  <h1 class="sec-title">Tags</h1>
-</div>
+  <h1 class="article-title">Relevant Coursework</h1>
 
+  <hr class="article-divider">
 
-<div class="entry-list">
+  <div class="article-body">
+    <p>Academic foundation in Information Systems and Economics with a certification in Computer Science. My favorite class has obviously been History of the Beatles, though.</p>
+<hr>
+<h3 id="information-systems--artificial-intelligence">Information Systems &amp; Artificial Intelligence</h3>
+<ul>
+<li>Application Development with AI</li>
+<li>Business Intelligence</li>
+<li>Intro to Applied AI &amp; Machine Learning Tools</li>
+<li>Database Design</li>
+<li>Systems Analysis and Design</li>
+<li>Business Application Development</li>
+<li>Digital Architecture and Security</li>
+<li>Intro to Programming with Python and R</li>
+<li>Digital Technology in Business</li>
+</ul>
+<hr>
+<h3 id="business-analytics--mathematics">Business Analytics &amp; Mathematics</h3>
+<ul>
+<li>Business Analytics I &amp; II</li>
+<li>Applied Calculus I &amp; II</li>
+<li>Operations Management</li>
+</ul>
+<hr>
+<h3 id="business-core">Business Core</h3>
+<ul>
+<li>Business Finance</li>
+<li>Financial &amp; Managerial Accounting</li>
+<li>Legal Environment of Business</li>
+<li>Global Business Environment</li>
+<li>Principles of Management &amp; Marketing</li>
+<li>Microeconomics &amp; Macroeconomics</li>
+<li>Business Communication</li>
+<li>Design Thinking and Ethics</li>
+</ul>
+<hr>
+<h3 id="arts--electives">Arts &amp; Electives</h3>
+<ul>
+<li>History of the Beatles</li>
+<li>Intro to Modern Africa</li>
+<li>Jazz Appreciation</li>
+<li>Cultural Anthropology</li>
+</ul>
+
+  </div>
+
 </div>
 
 <script>
 window.addEventListener('load', function () {
   if (typeof gsap === 'undefined') return;
-  gsap.from('.sec-header', { y: 20, opacity: 0, duration: 0.75, ease: 'power2.out' });
-  if (typeof ScrollTrigger === 'undefined') {
-    document.querySelectorAll('.reveal').forEach(function (el) {
-      el.style.opacity = 1;
-      el.style.transform = 'none';
-    });
-    return;
-  }
-  gsap.registerPlugin(ScrollTrigger);
-  gsap.utils.toArray('.reveal').forEach(function (el) {
-    gsap.to(el, {
-      y: 0, opacity: 1, duration: 0.8, ease: 'power2.out',
-      scrollTrigger: { trigger: el, start: 'top 88%' }
-    });
+  gsap.from('.article-back',    { y: 12, opacity: 0, duration: 0.55, ease: 'power2.out' });
+  gsap.from('.article-eyebrow', { y: 14, opacity: 0, duration: 0.65, delay: 0.06, ease: 'power2.out' });
+  gsap.from('.article-title',   { y: 30, opacity: 0, duration: 0.9,  delay: 0.14, ease: 'power3.out' });
+  gsap.from('.article-desc, .article-tags, .article-divider', {
+    y: 18, opacity: 0, duration: 0.7, delay: 0.35, stagger: 0.08, ease: 'power2.out'
   });
+  gsap.from('.article-body',    { y: 20, opacity: 0, duration: 0.75, delay: 0.5, ease: 'power2.out' });
 });
 </script></main><footer>
   <div class="site-footer">

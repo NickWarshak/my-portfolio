@@ -1,50 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="light">
-<head>
-	<meta name="generator" content="Hugo 0.155.2"><script src="/my-portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=55244&amp;path=my-portfolio/livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Nick Warshak">
-<title>Nick Warshak</title><script>
-  (function(){var t=localStorage.getItem('theme');if(t==='dark'||(t===null&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}})();
-</script><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="http://localhost:55244/my-portfolio/css/main.8c73da89a4013184075a9c25c22846f3f5065a379b849e15ead25ea6e3b78842.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
-</head>
-<body><header class="site-header">
-  <nav class="site-nav">
-    <a class="nav-logo" href="/">Nick Warshak</a>
+{{- define "main" }}
 
-    <div class="nav-links">
-      <a class="nav-link"
-         href="/my-portfolio/projects/">Projects</a>
-      <a class="nav-link"
-         href="/my-portfolio/experience/">Experience</a>
-      <a class="nav-link"
-         href="/my-portfolio/coursework/">Coursework</a>
-      <a class="nav-link"
-         href="/my-portfolio/personal/">Personal</a>
+{{- if .IsHome }}
+{{- /* ════════════════════════════════
+     HOMEPAGE
+     ════════════════════════════════ */}}
 
-      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour theme"><svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
-        </svg><svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
-          <circle cx="12" cy="12" r="5"/>
-          <line x1="12" y1="1"  x2="12" y2="3"/>
-          <line x1="12" y1="21" x2="12" y2="23"/>
-          <line x1="4.22" y1="4.22"   x2="5.64"  y2="5.64"/>
-          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
-          <line x1="1"  y1="12" x2="3"  y2="12"/>
-          <line x1="21" y1="12" x2="23" y2="12"/>
-          <line x1="4.22"  y1="19.78" x2="5.64"  y2="18.36"/>
-          <line x1="18.36" y1="5.64"  x2="19.78" y2="4.22"/>
-        </svg>
-      </button>
-    </div>
-  </nav>
-</header>
-<main id="main-content">
-
-
+<!-- HERO -->
 <section class="hero">
   <p class="hero-label">Data Systems &amp; AI Specialist</p>
 
@@ -54,8 +15,8 @@
   </h1>
 
   <div class="hero-ctas">
-    <a href="/projects/" class="btn btn-filled">View Work ↓</a>
-    <a href="/Nick_Warshak_Resume.pdf" class="btn" target="_blank" rel="noopener">Resume →</a>
+    <a href="{{ "/projects/" | relURL }}" class="btn btn-filled">View Work ↓</a>
+    <a href="{{ "/Nick_Warshak_Resume.pdf" | relURL }}" class="btn" target="_blank" rel="noopener">Resume →</a>
   </div>
 
   <div class="hero-exp">
@@ -74,7 +35,7 @@
   </div>
 </section>
 
-
+<!-- SHOWCASE SLIDER -->
 <section class="showcase">
   <div class="showcase-head">
     <span class="showcase-label">Selected Work</span>
@@ -82,9 +43,9 @@
   </div>
 
   <div class="slider-wrap" id="slider-wrap">
-    
+    <!-- Track A -->
     <div class="slider-track">
-      <a class="s-card s-card-link" href="/projects/margin-command/">
+      <a class="s-card s-card-link" href="{{ "/projects/margin-command/" | relURL }}">
         <span class="s-card-title">Margin Command</span>
         <p class="s-card-desc">Inventory telemetry HUD for dealership principals. Surfaces floorplan bleed and sales velocity in real time.</p>
         <div class="s-card-tags">
@@ -93,7 +54,7 @@
           <span class="s-card-tag">Plotly</span>
         </div>
       </a>
-      <a class="s-card s-card-link" href="/projects/fantasy-football/">
+      <a class="s-card s-card-link" href="{{ "/projects/fantasy-football/" | relURL }}">
         <span class="s-card-title">NFL Prediction Engine</span>
         <p class="s-card-desc">Fantasy football projection system combining historical data with algorithmic scoring models.</p>
         <div class="s-card-tags">
@@ -102,7 +63,7 @@
           <span class="s-card-tag">ML</span>
         </div>
       </a>
-      <a class="s-card s-card-link" href="/projects/portfolio-site/">
+      <a class="s-card s-card-link" href="{{ "/projects/portfolio-site/" | relURL }}">
         <span class="s-card-title">Portfolio Site</span>
         <p class="s-card-desc">This site — hand-built Hugo static site with a full custom design system and no theme dependency.</p>
         <div class="s-card-tags">
@@ -111,7 +72,7 @@
           <span class="s-card-tag">CSS</span>
         </div>
       </a>
-      <a class="s-card s-card-link" href="/projects/gradient-descent/">
+      <a class="s-card s-card-link" href="{{ "/projects/gradient-descent/" | relURL }}">
         <span class="s-card-title">Gradient Descent</span>
         <p class="s-card-desc">Interactive visual exploration of ML optimization concepts through gradient descent demonstrations.</p>
         <div class="s-card-tags">
@@ -122,9 +83,9 @@
       </a>
     </div>
 
-    
+    <!-- Track B — duplicate for seamless loop -->
     <div class="slider-track" aria-hidden="true">
-      <a class="s-card s-card-link" href="/projects/margin-command/">
+      <a class="s-card s-card-link" href="{{ "/projects/margin-command/" | relURL }}">
         <span class="s-card-title">Margin Command</span>
         <p class="s-card-desc">Inventory telemetry HUD for dealership principals. Surfaces floorplan bleed and sales velocity in real time.</p>
         <div class="s-card-tags">
@@ -133,7 +94,7 @@
           <span class="s-card-tag">Plotly</span>
         </div>
       </a>
-      <a class="s-card s-card-link" href="/projects/fantasy-football/">
+      <a class="s-card s-card-link" href="{{ "/projects/fantasy-football/" | relURL }}">
         <span class="s-card-title">NFL Prediction Engine</span>
         <p class="s-card-desc">Fantasy football projection system combining historical data with algorithmic scoring models.</p>
         <div class="s-card-tags">
@@ -142,7 +103,7 @@
           <span class="s-card-tag">ML</span>
         </div>
       </a>
-      <a class="s-card s-card-link" href="/projects/portfolio-site/">
+      <a class="s-card s-card-link" href="{{ "/projects/portfolio-site/" | relURL }}">
         <span class="s-card-title">Portfolio Site</span>
         <p class="s-card-desc">This site — hand-built Hugo static site with a full custom design system and no theme dependency.</p>
         <div class="s-card-tags">
@@ -151,7 +112,7 @@
           <span class="s-card-tag">CSS</span>
         </div>
       </a>
-      <a class="s-card s-card-link" href="/projects/gradient-descent/">
+      <a class="s-card s-card-link" href="{{ "/projects/gradient-descent/" | relURL }}">
         <span class="s-card-title">Gradient Descent</span>
         <p class="s-card-desc">Interactive visual exploration of ML optimization concepts through gradient descent demonstrations.</p>
         <div class="s-card-tags">
@@ -164,7 +125,7 @@
   </div>
 </section>
 
-
+<!-- ABOUT -->
 <section class="about reveal">
   <div class="about-label">About</div>
   <div class="about-body">
@@ -182,7 +143,7 @@
 
 <script>
 (function () {
-  
+  // Slider pause on hover
   var wrap = document.getElementById('slider-wrap');
   if (wrap) {
     wrap.addEventListener('mouseenter', function () {
@@ -197,17 +158,17 @@
     });
   }
 
-  
+  // GSAP animations
   window.addEventListener('load', function () {
     if (typeof gsap === 'undefined') return;
 
-    
+    // Hero entrance — staggered
     gsap.from('.hero-label', { y: 16, opacity: 0, duration: 0.7, ease: 'power2.out' });
     gsap.from('.hero-title', { y: 48, opacity: 0, duration: 1.1, delay: 0.12, ease: 'power3.out' });
     gsap.from('.hero-ctas',  { y: 28, opacity: 0, duration: 0.8, delay: 0.4,  ease: 'power2.out' });
     gsap.from('.hero-meta',  { y: 18, opacity: 0, duration: 0.7, delay: 0.6,  ease: 'power2.out' });
 
-    
+    // Scroll-triggered reveals
     if (typeof ScrollTrigger !== 'undefined') {
       gsap.registerPlugin(ScrollTrigger);
       gsap.utils.toArray('.reveal').forEach(function (el) {
@@ -219,36 +180,86 @@
     }
   });
 }());
-</script></main><footer>
-  <div class="site-footer">
-    <span>&copy; 2026 Nick Warshak</span>
-    <div class="footer-links">
-      <a class="footer-link" href="https://linkedin.com/in/nicholas-warshak" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="footer-link" href="https://github.com/NickWarshak" target="_blank" rel="noopener">GitHub</a>
-      <a class="footer-link" href="mailto:warshanj@mail.uc.edu">Email</a>
-    </div>
-  </div>
-</footer>
-<script>
-  (function () {
-    
-    var saved = localStorage.getItem('theme');
-    if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-      document.documentElement.setAttribute('data-theme', 'dark');
-    }
+</script>
 
-    
-    document.addEventListener('DOMContentLoaded', function () {
-      var btn = document.getElementById('theme-toggle');
-      if (!btn) return;
-      btn.addEventListener('click', function () {
-        var current = document.documentElement.getAttribute('data-theme');
-        var next = current === 'dark' ? 'light' : 'dark';
-        document.documentElement.setAttribute('data-theme', next);
-        localStorage.setItem('theme', next);
-      });
+{{- else }}
+{{- /* ════════════════════════════════
+     SECTION PAGES (Projects, Experience, etc.)
+     ════════════════════════════════ */}}
+
+<div class="sec-header">
+  <p class="sec-eyebrow">{{ .Section | title }}</p>
+  <h1 class="sec-title">{{ .Title }}</h1>
+</div>
+
+{{- $pages := union .RegularPages .Sections }}
+
+{{- if eq .Section "projects" }}
+
+<!-- PROJECT NUMBERED LIST -->
+<nav class="project-list" aria-label="Projects">
+  {{- range $i, $p := $pages }}
+  <a class="project-item reveal" href="{{ $p.Permalink }}">
+    <span class="project-num">{{ printf "%02d" (add $i 1) }}</span>
+    <div class="project-info">
+      <h2 class="project-name">{{ $p.Title }}</h2>
+      {{- if $p.Description }}
+      <p class="project-desc">{{ $p.Description }}</p>
+      {{- end }}
+      {{- if $p.Params.tags }}
+      <div class="project-tags">
+        {{- range $p.Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
+      </div>
+      {{- end }}
+    </div>
+    <span class="project-arrow" aria-hidden="true">↗</span>
+  </a>
+  {{- end }}
+</nav>
+
+{{- else if .Content }}
+
+<!-- SECTION WITH BODY CONTENT (Coursework index, Personal) -->
+<div class="article-wrap">
+  <div class="article-body reveal">{{ .Content }}</div>
+</div>
+
+{{- else }}
+
+<!-- SECTION WITH CHILD PAGES (Experience) -->
+<div class="entry-list">
+  {{- range $pages }}
+  <a class="entry-item reveal" href="{{ .Permalink }}">
+    <div class="entry-title">{{ .Title }}</div>
+    {{- if .Description }}
+    <div class="entry-desc">{{ .Description }}</div>
+    {{- end }}
+  </a>
+  {{- end }}
+</div>
+
+{{- end }}
+
+<script>
+window.addEventListener('load', function () {
+  if (typeof gsap === 'undefined') return;
+  gsap.from('.sec-header', { y: 20, opacity: 0, duration: 0.75, ease: 'power2.out' });
+  if (typeof ScrollTrigger === 'undefined') {
+    document.querySelectorAll('.reveal').forEach(function (el) {
+      el.style.opacity = 1;
+      el.style.transform = 'none';
     });
-  }());
-  </script>
-</body>
-</html>
+    return;
+  }
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.utils.toArray('.reveal').forEach(function (el) {
+    gsap.to(el, {
+      y: 0, opacity: 1, duration: 0.8, ease: 'power2.out',
+      scrollTrigger: { trigger: el, start: 'top 88%' }
+    });
+  });
+});
+</script>
+
+{{- end }}{{/* .IsHome */}}
+{{- end }}{{/* define main */}}

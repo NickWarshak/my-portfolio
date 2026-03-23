@@ -3,7 +3,7 @@
 <head><script src="/my-portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=55244&amp;path=my-portfolio/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Nick Warshak">
-<title>Tags · Nick Warshak</title><script>
+<title>Projects · Nick Warshak</title><script>
   (function(){var t=localStorage.getItem('theme');if(t==='dark'||(t===null&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}})();
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
     <a class="nav-logo" href="/">Nick Warshak</a>
 
     <div class="nav-links">
-      <a class="nav-link"
+      <a class="nav-link active"
          href="/my-portfolio/projects/">Projects</a>
       <a class="nav-link"
          href="/my-portfolio/experience/">Experience</a>
@@ -44,13 +44,53 @@
 <main id="main-content">
 
 <div class="sec-header">
-  <p class="sec-eyebrow">Tags</p>
-  <h1 class="sec-title">Tags</h1>
+  <p class="sec-eyebrow">Projects</p>
+  <h1 class="sec-title">Projects</h1>
 </div>
 
 
-<div class="entry-list">
-</div>
+<nav class="project-list" aria-label="Projects">
+  <a class="project-item reveal" href="http://localhost:55244/my-portfolio/projects/margin-command/">
+    <span class="project-num">01</span>
+    <div class="project-info">
+      <h2 class="project-name">Margin Command: Inventory Intelligence HUD</h2>
+      <p class="project-desc">A Python-based inventory telemetry dashboard designed to track floorplan interest bleed and sales velocity.</p>
+      <div class="project-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Data Visualization</span><span class="tag">Financial Logic</span><span class="tag">Plotly</span>
+      </div>
+    </div>
+    <span class="project-arrow" aria-hidden="true">↗</span>
+  </a>
+  <a class="project-item reveal" href="http://localhost:55244/my-portfolio/projects/fantasy-football/">
+    <span class="project-num">02</span>
+    <div class="project-info">
+      <h2 class="project-name">Fantasy Football Projection Engine</h2>
+      <p class="project-desc">A C# analytical tool that leverages market data from The Odds API to project fantasy football performance.</p>
+      <div class="project-tags"><span class="tag">C#</span><span class="tag">.NET</span><span class="tag">Data Analytics</span><span class="tag">API Integration</span><span class="tag">Fantasy Football</span>
+      </div>
+    </div>
+    <span class="project-arrow" aria-hidden="true">↗</span>
+  </a>
+  <a class="project-item reveal" href="http://localhost:55244/my-portfolio/projects/gradient-descent/">
+    <span class="project-num">03</span>
+    <div class="project-info">
+      <h2 class="project-name">Predictive Analytics: Polynomial Regression Engine</h2>
+      <p class="project-desc">A machine learning analysis utilizing Python to predict housing values through advanced feature engineering and regression modeling.</p>
+      <div class="project-tags"><span class="tag">Python</span><span class="tag">Data Science</span><span class="tag">Machine Learning</span><span class="tag">Predictive Modeling</span>
+      </div>
+    </div>
+    <span class="project-arrow" aria-hidden="true">↗</span>
+  </a>
+  <a class="project-item reveal" href="http://localhost:55244/my-portfolio/projects/portfolio-site/">
+    <span class="project-num">04</span>
+    <div class="project-info">
+      <h2 class="project-name">Professional Portfolio Website</h2>
+      <p class="project-desc">A high-performance portfolio site built with Hugo and deployed via GitHub Actions.</p>
+      <div class="project-tags"><span class="tag">Hugo</span><span class="tag">GitHub Actions</span><span class="tag">Web Dev</span><span class="tag">CI/CD</span>
+      </div>
+    </div>
+    <span class="project-arrow" aria-hidden="true">↗</span>
+  </a>
+</nav>
 
 <script>
 window.addEventListener('load', function () {
