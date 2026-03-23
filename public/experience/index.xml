@@ -1,26 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Experience on Nick Warshak</title>
-    <link>http://localhost:55244/my-portfolio/experience/</link>
-    <description>Recent content in Experience on Nick Warshak</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:55244/my-portfolio/experience/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Work Experience</title>
-      <link>http://localhost:55244/my-portfolio/experience/work-experience/</link>
-      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55244/my-portfolio/experience/work-experience/</guid>
-      <description>&lt;h3 id=&#34;jake-sweeney-kia&#34;&gt;Jake Sweeney Kia&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Data Entry &amp;amp; Analysis / Logistics Coordinator&lt;/strong&gt; | &lt;em&gt;Burlington, KY&lt;/em&gt; | &lt;em&gt;Nov 2024 – Present&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Inventory Data Architecture:&lt;/strong&gt; Maintain and audit data integrity for 400+ vehicles valued at over &lt;strong&gt;$10M&lt;/strong&gt; across five internal and external databases.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Market &amp;amp; Pricing Analysis:&lt;/strong&gt; Perform recurring inventory analyses to support competitive pricing strategies and vehicle placement decisions.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Supply Chain Logistics:&lt;/strong&gt; Coordinate vehicle movement across four dealership locations, managing a daily volume of 30–100+ units based on transport demand.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;App Development:&lt;/strong&gt; Developed and maintained multiple online application that were used by management and sales.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Strategic Support:&lt;/strong&gt; Identify high-visibility and unique inventory for main-lot placement to drive sales strategy and improve transfer efficiency.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cross-Functional Reporting:&lt;/strong&gt; Provide ad-hoc data pulls and analytical support to management, sales, and finance teams to facilitate data-driven decision-making.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lot Technician&lt;/strong&gt; | &lt;em&gt;June 2023 – Nov 2024&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Campus Leadership</title>
-      <link>http://localhost:55244/my-portfolio/experience/campus-leadership/</link>
-      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55244/my-portfolio/experience/campus-leadership/</guid>
-      <description>&lt;h3 id=&#34;information-systems-club-university-of-cincinnati&#34;&gt;Information Systems Club (University of Cincinnati)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Interim Vice President&lt;/strong&gt; (And Treasurer) | &lt;em&gt;2024 – Present&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Executive Strategy:&lt;/strong&gt; Facilitate executive board meetings to align club mission with the professional needs of 50+ members.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Professional Development:&lt;/strong&gt; Coordinate guest speaker series and networking workshops to bridge the gap between IS students and Cincinnati’s tech industry.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Financial Stewardship:&lt;/strong&gt; As Treasurer, manage the organization’s budget, ensuring transparent allocation of funds for semester-long events and professional seminars.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Member Engagement:&lt;/strong&gt; Strategize outreach efforts to increase student participation and foster a collaborative community for aspiring IS professionals.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;sigma-chi-fraternity&#34;&gt;Sigma Chi Fraternity&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Recruitment Committee Member&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Experience on Nick Warshak</title><link>https://NickWarshak.github.io/my-portfolio/experience/</link><description>Recent content in Experience on Nick Warshak</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://NickWarshak.github.io/my-portfolio/experience/index.xml" rel="self" type="application/rss+xml"/><item><title>Work Experience</title><link>https://NickWarshak.github.io/my-portfolio/experience/work-experience/</link><pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate><guid>https://NickWarshak.github.io/my-portfolio/experience/work-experience/</guid><description>&lt;h3 id="jake-sweeney-kia"&gt;Jake Sweeney Kia&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Data Entry &amp;amp; Analysis / Logistics Coordinator&lt;/strong&gt; | &lt;em&gt;Burlington, KY&lt;/em&gt; | &lt;em&gt;Nov 2024 – Present&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Inventory Data Architecture:&lt;/strong&gt; Maintain and audit data integrity for 400+ vehicles valued at over &lt;strong&gt;$10M&lt;/strong&gt; across five internal and external databases.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Market &amp;amp; Pricing Analysis:&lt;/strong&gt; Perform recurring inventory analyses to support competitive pricing strategies and vehicle placement decisions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Supply Chain Logistics:&lt;/strong&gt; Coordinate vehicle movement across four dealership locations, managing a daily volume of 30–100+ units based on transport demand.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;App Development:&lt;/strong&gt; Developed and maintained multiple online application that were used by management and sales.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Strategic Support:&lt;/strong&gt; Identify high-visibility and unique inventory for main-lot placement to drive sales strategy and improve transfer efficiency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cross-Functional Reporting:&lt;/strong&gt; Provide ad-hoc data pulls and analytical support to management, sales, and finance teams to facilitate data-driven decision-making.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Lot Technician&lt;/strong&gt; | &lt;em&gt;June 2023 – Nov 2024&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Campus Leadership</title><link>https://NickWarshak.github.io/my-portfolio/experience/campus-leadership/</link><pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate><guid>https://NickWarshak.github.io/my-portfolio/experience/campus-leadership/</guid><description>&lt;h3 id="information-systems-club-university-of-cincinnati"&gt;Information Systems Club (University of Cincinnati)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Interim Vice President&lt;/strong&gt; (And Treasurer) | &lt;em&gt;2024 – Present&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Executive Strategy:&lt;/strong&gt; Facilitate executive board meetings to align club mission with the professional needs of 50+ members.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Professional Development:&lt;/strong&gt; Coordinate guest speaker series and networking workshops to bridge the gap between IS students and Cincinnati’s tech industry.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Financial Stewardship:&lt;/strong&gt; As Treasurer, manage the organization’s budget, ensuring transparent allocation of funds for semester-long events and professional seminars.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Member Engagement:&lt;/strong&gt; Strategize outreach efforts to increase student participation and foster a collaborative community for aspiring IS professionals.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id="sigma-chi-fraternity"&gt;Sigma Chi Fraternity&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Recruitment Committee Member&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

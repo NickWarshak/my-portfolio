@@ -1,19 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Machine Learning on Nick Warshak</title>
-    <link>http://localhost:55244/my-portfolio/tags/machine-learning/</link>
-    <description>Recent content in Machine Learning on Nick Warshak</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:55244/my-portfolio/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Predictive Analytics: Polynomial Regression Engine</title>
-      <link>http://localhost:55244/my-portfolio/projects/gradient-descent/</link>
-      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55244/my-portfolio/projects/gradient-descent/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/NickWarshak/gradient-descent-optimization&#34;&gt;View Source Code on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;&#xA;&lt;p&gt;Developed a predictive modeling engine to analyze the California Housing dataset. This project moves beyond standard linear estimation by implementing feature expansion and statistical validation to map complex, non-linear relationships between geographic/economic variables and real estate market values.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;technical-stack&#34;&gt;Technical Stack&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Language:&lt;/strong&gt; Python (Jupyter Ecosystem)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Manipulation:&lt;/strong&gt; Pandas &amp;amp; NumPy&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Visualization:&lt;/strong&gt; Matplotlib &amp;amp; Seaborn&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Modeling:&lt;/strong&gt; Scikit-Learn (PolynomialFeatures, LinearRegression)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;key-features--implementation&#34;&gt;Key Features &amp;amp; Implementation&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Advanced Feature Engineering:&lt;/strong&gt; Utilized &lt;strong&gt;Polynomial Features&lt;/strong&gt; to transform raw data into a 2nd-degree polynomial matrix ($x_1^2, x_1x_2$, etc.), enabling the model to capture multidimensional interactions.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Exploratory Data Analysis (EDA):&lt;/strong&gt; Architected a &lt;strong&gt;Correlation Heatmap&lt;/strong&gt; to identify high-impact variables and reduce model noise by dropping redundant features like total room counts and geographic outliers.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Comparative Performance Analysis:&lt;/strong&gt; Implemented a dual-model workflow, testing a standard &lt;strong&gt;Linear Baseline&lt;/strong&gt; against an optimized &lt;strong&gt;Polynomial Engine&lt;/strong&gt; to quantify accuracy improvements.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Error Visualization:&lt;/strong&gt; Developed &lt;strong&gt;Residual Histograms&lt;/strong&gt; and &lt;strong&gt;Mean Squared Error (MSE)&lt;/strong&gt; comparison plots to statistically validate the model&amp;rsquo;s predictive reliability.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;the-logic-the-math&#34;&gt;The Logic (The Math)&lt;/h3&gt;&#xA;&lt;p&gt;The project focuses on minimizing the variance between predicted and actual values through two distinct stages:&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Machine Learning on Nick Warshak</title><link>https://NickWarshak.github.io/my-portfolio/tags/machine-learning/</link><description>Recent content in Machine Learning on Nick Warshak</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://NickWarshak.github.io/my-portfolio/tags/machine-learning/index.xml" rel="self" type="application/rss+xml"/><item><title>Predictive Analytics: Polynomial Regression Engine</title><link>https://NickWarshak.github.io/my-portfolio/projects/gradient-descent/</link><pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate><guid>https://NickWarshak.github.io/my-portfolio/projects/gradient-descent/</guid><description>&lt;p&gt;&lt;a href="https://github.com/NickWarshak/gradient-descent-optimization"&gt;View Source Code on GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="project-overview"&gt;Project Overview&lt;/h3&gt;
+&lt;p&gt;Developed a predictive modeling engine to analyze the California Housing dataset. This project moves beyond standard linear estimation by implementing feature expansion and statistical validation to map complex, non-linear relationships between geographic/economic variables and real estate market values.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="technical-stack"&gt;Technical Stack&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Language:&lt;/strong&gt; Python (Jupyter Ecosystem)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Manipulation:&lt;/strong&gt; Pandas &amp;amp; NumPy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visualization:&lt;/strong&gt; Matplotlib &amp;amp; Seaborn&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modeling:&lt;/strong&gt; Scikit-Learn (PolynomialFeatures, LinearRegression)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id="key-features--implementation"&gt;Key Features &amp;amp; Implementation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Advanced Feature Engineering:&lt;/strong&gt; Utilized &lt;strong&gt;Polynomial Features&lt;/strong&gt; to transform raw data into a 2nd-degree polynomial matrix ($x_1^2, x_1x_2$, etc.), enabling the model to capture multidimensional interactions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exploratory Data Analysis (EDA):&lt;/strong&gt; Architected a &lt;strong&gt;Correlation Heatmap&lt;/strong&gt; to identify high-impact variables and reduce model noise by dropping redundant features like total room counts and geographic outliers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comparative Performance Analysis:&lt;/strong&gt; Implemented a dual-model workflow, testing a standard &lt;strong&gt;Linear Baseline&lt;/strong&gt; against an optimized &lt;strong&gt;Polynomial Engine&lt;/strong&gt; to quantify accuracy improvements.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Error Visualization:&lt;/strong&gt; Developed &lt;strong&gt;Residual Histograms&lt;/strong&gt; and &lt;strong&gt;Mean Squared Error (MSE)&lt;/strong&gt; comparison plots to statistically validate the model&amp;rsquo;s predictive reliability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id="the-logic-the-math"&gt;The Logic (The Math)&lt;/h3&gt;
+&lt;p&gt;The project focuses on minimizing the variance between predicted and actual values through two distinct stages:&lt;/p&gt;</description></item></channel></rss>
