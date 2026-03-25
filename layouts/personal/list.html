@@ -1,0 +1,144 @@
+{{ define "main" }}
+<div class="ps-page">
+
+  <!-- Header -->
+  <div class="sec-header reveal">
+    <p class="sec-eyebrow">Personal</p>
+    <h1 class="sec-title">Beyond the Resume</h1>
+  </div>
+
+  <!-- How I Work -->
+  <section class="ps-section reveal">
+    <h2 class="ps-section-title">How I Work</h2>
+    <div class="ps-persona-grid">
+      <div class="ps-persona-card">
+        <span class="ps-persona-icon">⌘</span>
+        <h3>Documentation First</h3>
+        <p>I write things down before I build them. A clear spec surfaces edge cases early and makes the code easier to reason about later.</p>
+      </div>
+      <div class="ps-persona-card">
+        <span class="ps-persona-icon">◻</span>
+        <h3>Clean UI, Always</h3>
+        <p>I care about the interface as much as the logic behind it. A tool nobody wants to use isn't actually a tool — it's just code.</p>
+      </div>
+      <div class="ps-persona-card">
+        <span class="ps-persona-icon">△</span>
+        <h3>Build to Understand</h3>
+        <p>I learn by building. When something interests me — gradient descent, a data pipeline, this site — I make it myself to understand it deeply.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Current Status -->
+  <section class="ps-section reveal">
+    <h2 class="ps-section-title">Currently</h2>
+    <div class="ps-status-grid">
+      <div class="ps-status-card">
+        <span class="ps-status-label">Learning</span>
+        <span class="ps-status-value">LLM fine-tuning & RAG architecture</span>
+      </div>
+      <div class="ps-status-card">
+        <span class="ps-status-label">Reading</span>
+        <span class="ps-status-value">Designing Data-Intensive Applications</span>
+      </div>
+      <div class="ps-status-card">
+        <span class="ps-status-label">Building</span>
+        <span class="ps-status-value">AI-augmented dealership analytics</span>
+      </div>
+      <div class="ps-status-card">
+        <span class="ps-status-label">Listening</span>
+        <span class="ps-status-value">Prince, Bob Dylan, Zach Bryan</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Movies -->
+  <section class="ps-section reveal">
+    <h2 class="ps-section-title">All-Time Favorites</h2>
+    <p class="ps-section-sub">I live down the street from the Esquire — an old-school theater in Cincinnati. Tuesdays with the family.</p>
+    <div class="ps-movie-grid">
+      <div class="ps-movie-card">
+        <span class="ps-movie-num">01</span>
+        <span class="ps-movie-title">Ferris Bueller's Day Off</span>
+      </div>
+      <div class="ps-movie-card">
+        <span class="ps-movie-num">02</span>
+        <span class="ps-movie-title">Pulp Fiction</span>
+      </div>
+      <div class="ps-movie-card">
+        <span class="ps-movie-num">03</span>
+        <span class="ps-movie-title">Good Will Hunting</span>
+      </div>
+      <div class="ps-movie-card">
+        <span class="ps-movie-num">04</span>
+        <span class="ps-movie-title">Jojo Rabbit</span>
+      </div>
+      <div class="ps-movie-card">
+        <span class="ps-movie-num">05</span>
+        <span class="ps-movie-title">Midnight in Paris</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Current Rotation -->
+  <section class="ps-section reveal">
+    <h2 class="ps-section-title">Current Rotation</h2>
+    <p class="ps-section-sub">Guitar is the main instrument — been playing since high school. Record collection built with my dad.</p>
+    <ol class="ps-rotation-list">
+      <li class="ps-rotation-item">
+        <span class="ps-rotation-track">Tangled Up in Blue</span>
+        <span class="ps-rotation-artist">Bob Dylan</span>
+      </li>
+      <li class="ps-rotation-item">
+        <span class="ps-rotation-track">Grease</span>
+        <span class="ps-rotation-artist">Frankie Valli</span>
+      </li>
+      <li class="ps-rotation-item">
+        <span class="ps-rotation-track">Plastic Cigarette (Acoustic)</span>
+        <span class="ps-rotation-artist">Zach Bryan</span>
+      </li>
+      <li class="ps-rotation-item">
+        <span class="ps-rotation-track">To Forgive</span>
+        <span class="ps-rotation-artist">The Smashing Pumpkins</span>
+      </li>
+      <li class="ps-rotation-item">
+        <span class="ps-rotation-track">U Don't Know</span>
+        <span class="ps-rotation-artist">Jay-Z</span>
+      </li>
+    </ol>
+  </section>
+
+</div>
+
+<script>
+window.addEventListener('load', function () {
+  if (typeof gsap === 'undefined') {
+    document.querySelectorAll('.reveal').forEach(function (el) {
+      el.style.opacity = 1; el.style.transform = 'none';
+    });
+    return;
+  }
+  if (typeof ScrollTrigger === 'undefined') {
+    document.querySelectorAll('.reveal').forEach(function (el) {
+      el.style.opacity = 1; el.style.transform = 'none';
+    });
+    return;
+  }
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.utils.toArray('.reveal').forEach(function (el) {
+    gsap.to(el, {
+      y: 0, opacity: 1, duration: 0.8, ease: 'power2.out',
+      scrollTrigger: { trigger: el, start: 'top 88%' }
+    });
+  });
+  ScrollTrigger.create({
+    trigger: '.ps-rotation-list', start: 'top 85%', once: true,
+    onEnter: function () {
+      gsap.from('.ps-rotation-item', {
+        y: 16, opacity: 0, duration: 0.5, ease: 'power2.out', stagger: 0.1
+      });
+    }
+  });
+});
+</script>
+{{ end }}

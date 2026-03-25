@@ -1,0 +1,84 @@
+{{ define "main" }}
+<div class="cw-page">
+  <div class="sec-header reveal">
+    <p class="sec-eyebrow">Academic Foundation</p>
+    <h1 class="sec-title">{{ .Title }}</h1>
+    <p class="cw-intro">{{ .Description }}</p>
+  </div>
+
+  {{ range .Params.semesters }}
+  <div class="cw-semester reveal">
+    <h2 class="cw-semester-title">{{ .name }}</h2>
+
+    {{ if .brief }}
+    <div class="cw-brief-grid">
+      {{ range .courses }}
+      <span class="cw-brief-item">{{ .title }}</span>
+      {{ end }}
+    </div>
+
+    {{ else }}
+    <div class="cw-cards">
+      {{ range .courses }}
+      {{- $slug := .related_project -}}
+      <div class="cw-card">
+        <div class="cw-card-top">
+          <h3 class="cw-card-title">{{ .title }}</h3>
+          {{ if .skills }}
+          <div class="cw-skills">
+            {{ range .skills }}<span class="cw-skill">{{ . }}</span>{{ end }}
+          </div>
+          {{ end }}
+        </div>
+
+        {{ if .hardest_problem }}
+        <div class="cw-block">
+          <span class="cw-block-label">Hardest Problem</span>
+          <p class="cw-block-text">{{ .hardest_problem }}</p>
+        </div>
+        {{ end }}
+
+        {{ if .key_takeaway }}
+        <div class="cw-block">
+          <span class="cw-block-label">Key Takeaway</span>
+          <p class="cw-block-text">{{ .key_takeaway }}</p>
+        </div>
+        {{ end }}
+
+        {{ if $slug }}
+        <a class="cw-project-link" href="{{ (site.GetPage (printf "/projects/%s" $slug)).RelPermalink }}">
+          View Related Project →
+        </a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+
+<script>
+window.addEventListener('load', function () {
+  if (typeof gsap === 'undefined') {
+    document.querySelectorAll('.reveal').forEach(function (el) {
+      el.style.opacity = 1; el.style.transform = 'none';
+    });
+    return;
+  }
+  if (typeof ScrollTrigger === 'undefined') {
+    document.querySelectorAll('.reveal').forEach(function (el) {
+      el.style.opacity = 1; el.style.transform = 'none';
+    });
+    return;
+  }
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.utils.toArray('.reveal').forEach(function (el) {
+    gsap.to(el, {
+      y: 0, opacity: 1, duration: 0.8, ease: 'power2.out',
+      scrollTrigger: { trigger: el, start: 'top 88%' }
+    });
+  });
+});
+</script>
+{{ end }}

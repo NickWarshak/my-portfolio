@@ -7,7 +7,7 @@
   (function(){var t=localStorage.getItem('theme');if(t==='dark'||(t===null&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}})();
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="http://localhost:49672/my-portfolio/css/main.192a6b8c4ff1c70c0dfdcf3cfc05e120926ce88b267d11f99437fcea003d31ce.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="http://localhost:49672/my-portfolio/css/main.f851c6adbf494c61b7c30f821e986c17ddd24bd3f35b7f7abd12f5de56322412.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 </head>
 <body><header class="site-header">
@@ -53,24 +53,24 @@
 </div>
 
 <script>
-  window.addEventListener('load', function () {
-    if (typeof gsap === 'undefined') return;
-    gsap.from('.sec-header', { y: 20, opacity: 0, duration: 0.75, ease: 'power2.out' });
-    if (typeof ScrollTrigger === 'undefined') {
-      document.querySelectorAll('.reveal').forEach(function (el) {
-        el.style.opacity = 1;
-        el.style.transform = 'none';
-      });
-      return;
-    }
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.utils.toArray('.reveal').forEach(function (el) {
-      gsap.to(el, {
-        y: 0, opacity: 1, duration: 0.8, ease: 'power2.out',
-        scrollTrigger: { trigger: el, start: 'top 88%' }
-      });
+window.addEventListener('load', function () {
+  if (typeof gsap === 'undefined') return;
+  gsap.from('.sec-header', { y: 20, opacity: 0, duration: 0.75, ease: 'power2.out' });
+  if (typeof ScrollTrigger === 'undefined') {
+    document.querySelectorAll('.reveal').forEach(function (el) {
+      el.style.opacity = 1;
+      el.style.transform = 'none';
+    });
+    return;
+  }
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.utils.toArray('.reveal').forEach(function (el) {
+    gsap.to(el, {
+      y: 0, opacity: 1, duration: 0.8, ease: 'power2.out',
+      scrollTrigger: { trigger: el, start: 'top 88%' }
     });
   });
+});
 </script></main><footer>
   <div class="site-footer">
     <span>&copy; 2026 Nick Warshak</span>

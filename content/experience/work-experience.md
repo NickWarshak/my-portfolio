@@ -3,6 +3,9 @@ title: "Work Experience"
 date: 2026-02-05
 weight: 10
 draft: false
+description: "Data systems, inventory architecture, and app development across a multi-location automotive group."
+type_label: "Work"
+date_range: "Jun 2023 – Present"
 ---
 
 ### Paychex

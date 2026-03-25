@@ -3,6 +3,9 @@ title: "Campus Leadership"
 date: 2026-02-05
 weight: 20
 draft: false
+description: "IS Club VP, Sigma Chi recruitment committee, and founding member of a student music organization."
+type_label: "Campus"
+date_range: "2024 – Present"
 ---
 
 ### Information Systems Club (University of Cincinnati)
