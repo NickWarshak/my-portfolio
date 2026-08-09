@@ -22,7 +22,7 @@ date_range: "2024 – Present"
 **Recruitment Committee Member**
 
 * **Outreach & Communication:** Manage communication pipelines for prospective members, serving as a point of contact and representative of the organization.
-* **Event Logistics:** Collaborate with a committee of 10+ peers to execute large-scale recruitment events, managing logistics and schedule flow for hundreds of attendees.
+* **Event Logistics:** Collaborate with a committee of 10+ peers to execute large recruitment events, managing logistics and schedule flow for hundreds of attendees.
 * **Brand Representation:** Assist in organizational branding efforts to maintain the chapter's professional image and presence on campus.
 
 ---

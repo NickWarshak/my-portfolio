@@ -385,7 +385,7 @@ p { color: var(--fg); }
   padding: 0.75rem 0 1.25rem;
   padding-right: 1.25rem;
   flex-shrink: 0;
-  animation: marquee 32s linear infinite;
+  animation: marquee 40s linear infinite;
   will-change: transform;
 }
 
@@ -659,6 +659,89 @@ p { color: var(--fg); }
 @keyframes gd-rl9 {
   from { opacity: 0; }
   to   { opacity: 0.95; }
+}
+
+/* ── 5. RESUME SCREENING GOVERNANCE: bias bars rise toward the 4/5 line ── */
+.s-card-media--rsg {
+  background: #000;
+  transition: background 0.4s ease;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.s-card:hover .s-card-media--rsg { background: #0a0503; }
+
+.rsg-threshold {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 92px;
+  border-top: 1px dashed rgba(255, 200, 90, 0.55);
+  opacity: 0;
+  transition: opacity 0.4s 0.1s ease;
+}
+.s-card:hover .rsg-threshold { opacity: 1; }
+
+.rsg-threshold-label {
+  position: absolute;
+  right: 10px;
+  top: -15px;
+  font-size: 7px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 200, 90, 0.75);
+}
+
+.rsg-chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 26px;
+  padding-bottom: 46px;
+}
+
+.rsg-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.rsg-bars-pair {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 92px;
+}
+
+.rsg-bar {
+  width: 9px;
+  transform: scaleY(0.03);
+  transform-origin: bottom;
+  opacity: 0;
+  transition: transform 0.5s ease-out, opacity 0.4s ease;
+}
+.rsg-bar--naive { background: rgba(255, 75, 75, 0.85); }
+.rsg-bar--gov   { background: rgba(70, 220, 140, 0.9); }
+
+.s-card:hover .rsg-bar {
+  transform: scaleY(1);
+  opacity: 1;
+}
+.s-card:hover .rsg-group:nth-child(1) .rsg-bar--naive { transition-delay: 0.05s; }
+.s-card:hover .rsg-group:nth-child(1) .rsg-bar--gov   { transition-delay: 0.15s; }
+.s-card:hover .rsg-group:nth-child(2) .rsg-bar--naive { transition-delay: 0.25s; }
+.s-card:hover .rsg-group:nth-child(2) .rsg-bar--gov   { transition-delay: 0.35s; }
+.s-card:hover .rsg-group:nth-child(3) .rsg-bar--naive { transition-delay: 0.45s; }
+.s-card:hover .rsg-group:nth-child(3) .rsg-bar--gov   { transition-delay: 0.55s; }
+
+.rsg-group-label {
+  font-size: 6px;
+  font-weight: 500;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
 }
 
 /* Overlay: bottom-heavy so animations show through the top */

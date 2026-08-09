@@ -47,9 +47,48 @@
     {{- $ff := site.GetPage "/projects/fantasy-football" }}
     {{- $ps := site.GetPage "/projects/portfolio-site" }}
     {{- $gd := site.GetPage "/projects/gradient-descent" }}
+    {{- $rsg := site.GetPage "/projects/resume-screening-governance" }}
 
     <!-- Track A -->
     <div class="slider-track">
+      <a class="s-card s-card-link" href="{{ $rsg.Permalink }}">
+        <div class="s-card-media s-card-media--rsg">
+          <div class="rsg-threshold"><span class="rsg-threshold-label">4/5 rule</span></div>
+          <div class="rsg-chart">
+            <div class="rsg-group">
+              <div class="rsg-bars-pair">
+                <div class="rsg-bar rsg-bar--naive" style="height:56px"></div>
+                <div class="rsg-bar rsg-bar--gov" style="height:89px"></div>
+              </div>
+              <span class="rsg-group-label">Sex</span>
+            </div>
+            <div class="rsg-group">
+              <div class="rsg-bars-pair">
+                <div class="rsg-bar rsg-bar--naive" style="height:58px"></div>
+                <div class="rsg-bar rsg-bar--gov" style="height:77px"></div>
+              </div>
+              <span class="rsg-group-label">Ethn.</span>
+            </div>
+            <div class="rsg-group">
+              <div class="rsg-bars-pair">
+                <div class="rsg-bar rsg-bar--naive" style="height:45px"></div>
+                <div class="rsg-bar rsg-bar--gov" style="height:60px"></div>
+              </div>
+              <span class="rsg-group-label">Inter.</span>
+            </div>
+          </div>
+        </div>
+        <div class="s-card-overlay"></div>
+        <div class="s-card-content">
+          <span class="s-card-title">Responsible AI Resume Screening</span>
+          <p class="s-card-desc">AI governance case study. The model that best matches recruiter decisions isn't the model that finds qualified candidates.</p>
+          <div class="s-card-tags">
+            <span class="s-card-tag">Python</span>
+            <span class="s-card-tag">scikit-learn</span>
+            <span class="s-card-tag">AI Governance</span>
+          </div>
+        </div>
+      </a>
       <a class="s-card s-card-link" href="{{ $mc.Permalink }}">
         <div class="s-card-media s-card-media--mc">
           <div class="mc-panel"><span class="mc-val">$42K</span><span class="mc-label">Rev</span></div>
@@ -148,6 +187,44 @@
 
     <!-- Track B — duplicate for seamless loop -->
     <div class="slider-track" aria-hidden="true">
+      <a class="s-card s-card-link" href="{{ $rsg.Permalink }}">
+        <div class="s-card-media s-card-media--rsg">
+          <div class="rsg-threshold"><span class="rsg-threshold-label">4/5 rule</span></div>
+          <div class="rsg-chart">
+            <div class="rsg-group">
+              <div class="rsg-bars-pair">
+                <div class="rsg-bar rsg-bar--naive" style="height:56px"></div>
+                <div class="rsg-bar rsg-bar--gov" style="height:89px"></div>
+              </div>
+              <span class="rsg-group-label">Sex</span>
+            </div>
+            <div class="rsg-group">
+              <div class="rsg-bars-pair">
+                <div class="rsg-bar rsg-bar--naive" style="height:58px"></div>
+                <div class="rsg-bar rsg-bar--gov" style="height:77px"></div>
+              </div>
+              <span class="rsg-group-label">Ethn.</span>
+            </div>
+            <div class="rsg-group">
+              <div class="rsg-bars-pair">
+                <div class="rsg-bar rsg-bar--naive" style="height:45px"></div>
+                <div class="rsg-bar rsg-bar--gov" style="height:60px"></div>
+              </div>
+              <span class="rsg-group-label">Inter.</span>
+            </div>
+          </div>
+        </div>
+        <div class="s-card-overlay"></div>
+        <div class="s-card-content">
+          <span class="s-card-title">Responsible AI Resume Screening</span>
+          <p class="s-card-desc">AI governance case study. The model that best matches recruiter decisions isn't the model that finds qualified candidates.</p>
+          <div class="s-card-tags">
+            <span class="s-card-tag">Python</span>
+            <span class="s-card-tag">scikit-learn</span>
+            <span class="s-card-tag">AI Governance</span>
+          </div>
+        </div>
+      </a>
       <a class="s-card s-card-link" href="{{ $mc.Permalink }}">
         <div class="s-card-media s-card-media--mc">
           <div class="mc-panel"><span class="mc-val">$42K</span><span class="mc-label">Rev</span></div>
