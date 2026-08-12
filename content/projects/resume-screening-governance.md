@@ -1,5 +1,5 @@
 ---
-title: "Responsible AI Resume Screening"
+title: "AI Resume Screening"
 date: 2026-08-08
 draft: false
 description: "An AI governance case study: the model that best predicts what recruiters did is not the model that best finds qualified candidates."
